@@ -37,12 +37,11 @@ export const getAccessToken = async () => {
 
 export async function getCurrentTrack(accessToken) {
   const myHeaders = new Headers();
-  myHeaders.append("Authorization", `Bearer ${accessToken}}`);
+  myHeaders.append("Authorization", `Bearer ${accessToken}`);
 
   const requestOptions = {
     method: "GET",
     headers: myHeaders,
-    next: { revalidate: 0 },
   };
 
   try {
@@ -60,7 +59,7 @@ export async function getCurrentTrack(accessToken) {
 
 export async function getLastPlayedTrack(accessToken) {
   const myHeaders = new Headers();
-  myHeaders.append("Authorization", `Bearer ${accessToken}}`);
+  myHeaders.append("Authorization", `Bearer ${accessToken}`);
 
   const requestOptions = {
     method: "GET",
@@ -83,7 +82,7 @@ export async function getLastPlayedTrack(accessToken) {
 
 export async function getQueue(accessToken) {
   const myHeaders = new Headers();
-  myHeaders.append("Authorization", `Bearer ${accessToken}}`);
+  myHeaders.append("Authorization", `Bearer ${accessToken}`);
 
   const requestOptions = {
     method: "GET",
