@@ -1,4 +1,6 @@
-'use server'
+// Import dotenv
+require('dotenv').config();
+
 
 export const getAccessToken = async () => {
   const myHeaders = new Headers()
