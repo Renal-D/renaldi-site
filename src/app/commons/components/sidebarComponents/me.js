@@ -55,8 +55,8 @@ export default function Me({ activeProps }) {
               ></motion.img>
             </div>
           </motion.div>
-          <div className="md:mt-4 mt-2 text-xl font-semibold flex justify-center items-center gap-2">
-            <h1 className="md:text-xl text-lg">Renaldi D. Saputra</h1>
+          <div className="md:mt-4 mt-2 text-xl font-bold flex justify-center items-center gap-2">
+            <h1 className="md:text-l text-lg">Renaldi D. Saputra</h1>
             <Verified />
           </div>
 

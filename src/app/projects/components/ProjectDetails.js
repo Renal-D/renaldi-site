@@ -46,6 +46,7 @@ export default function ProjectDetail({ params }) {
                   <Link
                     href={project.link_github}
                     className="flex items-center gap-2"
+                    target='_blank'
                   >
                     <SiGithub className="text-2xl" /> Source Code
                   </Link>{" "}
@@ -53,6 +54,7 @@ export default function ProjectDetail({ params }) {
                   <Link
                     href={project.link_demo}
                     className="flex items-center gap-2"
+                    target='_blank'
                   >
                     <BiLinkExternal className="text-2xl" /> Demo
                   </Link>

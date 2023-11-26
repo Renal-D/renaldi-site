@@ -4,6 +4,7 @@ import {
   SiInstagram,
   SiTiktok,
   SiDiscord,
+  SiLinkedin,
 } from "react-icons/si";
 
 const iconSize = 24;
@@ -38,5 +39,11 @@ export const CONTACTLIST = [
     logo: <SiTiktok size={iconSize} />,
     href: "https://www.tiktok.com/@renmaruuqt",
     color: 'bg-neutral-800',
+  },
+  {
+    name: "LinkedIn",
+    logo: <SiLinkedin size={iconSize} />,
+    href: "https://www.linkedin.com/in/renaldidwi",
+    color: 'bg-blue-500',
   },
 ];

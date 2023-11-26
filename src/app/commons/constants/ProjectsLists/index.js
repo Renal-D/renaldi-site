@@ -7,7 +7,8 @@ import {
   SiPython,
   SiAdobephotoshop,
   SiTableau,
-  SiMysql
+  SiMysql,
+  SiGooglebigquery
 } from "react-icons/si";
 
 const iconSize = 24;
@@ -20,7 +21,7 @@ export const PROJECTSLISTS = [
       "Personal website and portfolio built with Next Js, Javascript and Tailwind CSS",
     slug: "port-v1",
     link_demo: "https://renaldidwi.vercel.app",
-    link_github: "https://github.com/renal-d/",
+    link_github: "https://github.com/Renal-D/portfolio",
     tech_stack: [
       {
         title: "Nextjs",
@@ -91,11 +92,11 @@ export const PROJECTSLISTS = [
   },
   {
     id: 2,
-    title: "Data Science Project - Marketing",
-    description: "Data Science portfolio built with python, MySQL, and Tableau",
+    title: "Data Science Project - Games Sales",
+    description: "Data Science portfolio built with Python, MySQL, and Big Query",
     slug: "dspmarketing",
-    link_demo: "https://v3reza.vercel.app",
-    link_github: "https://github.com/ryznoxy/v3reza",
+    link_demo: "https://github.com/Renal-D/games_sales/blob/main/RevoU_CaseStudy_RR.pptx",
+    link_github: "https://github.com/Renal-D/games_sales",
     tech_stack: [{
       title: "Python",
       icon: <SiPython size={iconSize} className="text-blue-500" />,
@@ -105,8 +106,8 @@ export const PROJECTSLISTS = [
       icon: <SiMysql size={iconSize} className="text-orange-500" />,
     },
     {
-      title: "Tableau",
-      icon: <SiTableau size={iconSize} className="text-blue-500" />,
+      title: "Big Query",
+      icon: <SiGooglebigquery size={iconSize} className="text-blue-500" />,
     },
     {
       title: null,
@@ -129,8 +130,8 @@ export const PROJECTSLISTS = [
     title: "AI Photo",
     description: "AI Photo RRQ Livi",
     slug: "aiphoto",
-    link_demo: "https://v2portfolio.vercel.app/",
-    link_github: "https://github.com/ryznoxy/v2portfolio",
+    link_demo: "",
+    link_github: "",
     tech_stack: [ {
       title: "Photoshop",
       icon: <SiAdobephotoshop size={iconSize} className="text-blue-500" />,

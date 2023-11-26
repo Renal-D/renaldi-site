@@ -18,6 +18,7 @@ function CourseCard({ Index, icon, title, indonesia, english }) {
               <Link
                 href={indonesia}
                 className="text-center flex items-center text-xs text-neutral-800 dark:text-white  cursor-pointer md:px-3 md:py-1 px-[6px] py-1 rounded-full bg-neutral-300 dark:bg-neutral-800"
+                target='_blank'
               >
                 <h1>{isMobile ? "ID" : "Indonesia"}</h1>
               </Link>
@@ -29,6 +30,7 @@ function CourseCard({ Index, icon, title, indonesia, english }) {
               <Link
                 href={english}
                 className="text-center flex items-center text-xs text-neutral-800 dark:text-white  cursor-pointer md:px-3 md:py-1 px-[6px] py-1 rounded-full bg-neutral-300 dark:bg-neutral-800"
+                target='_blank'
               >
                 <h1>{isMobile ? "EN" : "English"}</h1>
               </Link>
