@@ -1,24 +1,29 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("myForm");
+  const [state, handleSubmit] = useForm("xjvqqwwe");
 
   const inputName = useRef(null);
   const inputEmail = useRef(null);
   const inputMessage = useRef(null);
 
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    await handleSubmit(e);
+
   if (state.succeeded) {
-    inputName.current.value = null;
-    inputEmail.current.value = null;
-    inputMessage.current.value = null;
+    inputName.current.value = "";
+    inputEmail.current.value = "";
+    inputMessage.current.value = "";
   }
+}
 
   return (
     <div className="space-y-2">
       <h1 className="text-md">Or send me a message</h1>
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={handleFormSubmit} className="space-y-4">
         <div className="grid lg:grid-cols-2 gap-4">
           <input
             id="name"
@@ -29,32 +34,9 @@ function ContactForm() {
             required
             className="bg-neutral-50 dark:bg-neutral-900 dark:outline-neutral-700 w-full rounded-lg p-2 outline outline-neutral-300 focus:outline-neutral-400"
           />
-          <ValidationError prefix="name" field="Name" errors={state.errors} />
-          <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="Email"
-            ref={inputEmail}
-            required
-            className="bg-neutral-50 dark:bg-neutral-900 dark:outline-neutral-700 w-full rounded-lg p-2 outline outline-neutral-300 focus:outline-neutral-400"
-          />
-          <ValidationError prefix="Email" field="email" errors={state.errors} />
-        </div>
-        <div>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Message"
-            ref={inputMessage}
-            required
-            className="bg-neutral-50 dark:bg-neutral-900 dark:outline-neutral-700 w-full rounded-lg p-2 outline outline-neutral-300 focus:outline-neutral-400 h-28"
-          />
-          <ValidationError
-            prefix="Message"
-            field="message"
-            errors={state.errors}
-          />
+          <ValidationError prefix="Name" field="name" errors={state.errors} />
+          <ValidationError prefix="Email" field="email" errors={state.errors} /> 
+          <ValidationError prefix="Message" field="message" errors={state.errors} />
         </div>
 
         <button
