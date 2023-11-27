@@ -9,21 +9,16 @@ function ContactForm() {
   const inputEmail = useRef(null);
   const inputMessage = useRef(null);
 
-  const handleFormSubmit = async (e) => {
-    e.preventDefault();
-    await handleSubmit(e);
-
   if (state.succeeded) {
     inputName.current.value = "";
     inputEmail.current.value = "";
     inputMessage.current.value = "";
   }
-}
 
   return (
     <div className="space-y-2">
       <h1 className="text-md">Or send me a message</h1>
-      <form onSubmit={handleFormSubmit} className="space-y-4">
+      <form onSubmit={handleSubmit} className="space-y-4">
         <div className="grid lg:grid-cols-2 gap-4">
           <input
             id="name"
