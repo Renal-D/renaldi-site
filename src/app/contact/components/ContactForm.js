@@ -4,6 +4,8 @@ import { useForm, ValidationError } from "@formspree/react";
 
 function ContactForm() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID);
+  const [notification, setNotification] = useState(null);
+
 
   const inputName = useRef(null);
   const inputEmail = useRef(null);
@@ -18,11 +20,28 @@ function ContactForm() {
     inputEmail.current.value = "";
     inputMessage.current.value = "";
   }
+  if (state.succeeded) {
+    setNotification({
+      type: "success",
+      message: "Message Sent!",
+    });
+    inputName.current.value = "";
+    inputEmail.current.value = "";
+    inputMessage.current.value = "";
+  }
+}
+function Notification({ notification }) {
+  return (
+    <div className={`notification ${notification.type}`}>
+      {notification.message}
+    </div>
+  );
 }
 
   return (
     <div className="space-y-2">
       <h1 className="text-md">Or send me a message</h1>
+      {notification && <Notification notification={notification} />}
       <form onSubmit={handleFormSubmit} className="space-y-4">
         <div className="grid lg:grid-cols-2 gap-4">
           <input

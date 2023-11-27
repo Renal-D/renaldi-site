@@ -94,6 +94,17 @@ body {
   z-index: 0;
 }
 
+.notification {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.success {
+  background-color: #4caf50;
+  color: white;
+}
+
 ::-webkit-scrollbar {
   @apply w-1 h-1;
 }
