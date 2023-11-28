@@ -17,7 +17,7 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiNuxtdotjs,
-  SiPhp,
+  SiMysql,
   SiPrisma,
   SiReact,
   SiReacthookform,
@@ -37,7 +37,7 @@ import {
 const iconSize = '100%'
 
 export const STACK = {
-  PHP: <SiPhp size={iconSize} className="text-blue-500" />,
+  SQL: <SiMysql size={iconSize} className="text-orange-700" />,
   JavaScript: <SiJavascript size={iconSize} className="text-yellow-400" />,
   TypeScript: <SiTypescript size={iconSize} className="text-blue-400" />,
   'Next.js': <SiNextdotjs size={iconSize} />,
