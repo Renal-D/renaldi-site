@@ -1,7 +1,7 @@
 export const EDULISTS = [
   {
     title: 'SMA Negeri 1 Kawedanan',
-    logo: 'https://scontent.fsub8-1.fna.fbcdn.net/v/t39.30808-6/301390665_467805908721164_6644247933050564024_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=USSFh1etNo4AX9bya-S&_nc_ht=scontent.fsub8-1.fna&oh=00_AfAG083YtVPJ1UvH5JCyvifcWIUw2VoxcYhj7mWZIwZxQg&oe=6565CE98',
+    logo: 'https://drive.google.com/file/d/1PdpOgtB3MdEQtcMS_4HcVsHoUNFA5i4y/preview',
     href: 'https://www.sman1kawedanan.sch.id/',
     year: 'Aug 2015 - Juni 2018',
     school: 'Senior High School',
