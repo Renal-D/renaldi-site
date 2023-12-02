@@ -14,6 +14,12 @@ const nextConfig = {
       {
         hostname: "res.cloudinary.com",
       },
+      {
+        hostname: "res-console.cloudinary.com",
+      },
+      {
+        hostname: "1.bp.blogspot.com",
+      },
     ],
   },
 };

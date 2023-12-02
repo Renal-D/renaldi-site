@@ -118,7 +118,7 @@ export const PROJECTSLISTS = [
     tooltip: ["Python", "MySQL", "Tableau"],
     aos_delay: 600,
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1700837123/de_qyhx1l.jpg",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701481888/OIG_qa0af0.jpg",
     is_show: true,
     is_featured: false,
     params: {
