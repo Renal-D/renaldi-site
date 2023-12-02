@@ -1,13 +1,13 @@
 export const STATLISTS = [
   {
     title: "Start Date",
-    isi: "November 01, 2023",
+    isi: "Desember 01, 2022",
     angka: null,
     angka_show: false,
   },
   {
     title: "End Date",
-    isi: "November 01, 2024",
+    isi: "Desember 01, 2024",
     angka: null,
     angka_show: false,
   },
@@ -20,19 +20,19 @@ export const STATLISTS = [
   {
     title: "Average Coding Per Week",
     isi: " hrs per week",
-    angka: "22",
+    angka: "21",
     angka_show: true,
   },
   {
     title: "Average Coding Per Month",
     isi: " hrs per month",
-    angka: "100",
+    angka: "99",
     angka_show: true,
   },
   {
     title: "All Time Until Today",
-    isi: " hrs 21 mins ",
-    angka: "510",
+    isi: " hrs 22 mins ",
+    angka: "600",
     angka_show: true,
   },
 ];

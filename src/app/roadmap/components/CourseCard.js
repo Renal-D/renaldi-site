@@ -14,7 +14,7 @@ function CourseCard({ Index, icon, title, indonesia, english }) {
         </div>
         <div className="flex gap-2">
           {indonesia && (
-            <Tooltip content="Free Course!" radius="sm">
+            <Tooltip content="Link!" radius="sm">
               <Link
                 href={indonesia}
                 className="text-center flex items-center text-xs text-neutral-800 dark:text-white  cursor-pointer md:px-3 md:py-1 px-[6px] py-1 rounded-full bg-neutral-300 dark:bg-neutral-800"
@@ -26,7 +26,7 @@ function CourseCard({ Index, icon, title, indonesia, english }) {
           )}
 
           {english && (
-            <Tooltip content="Free Course!" radius="sm">
+            <Tooltip content="Link!" radius="sm">
               <Link
                 href={english}
                 className="text-center flex items-center text-xs text-neutral-800 dark:text-white  cursor-pointer md:px-3 md:py-1 px-[6px] py-1 rounded-full bg-neutral-300 dark:bg-neutral-800"

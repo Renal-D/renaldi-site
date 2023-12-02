@@ -2,19 +2,24 @@ import {
   SiPython,
   SiGithub,
   SiMysql,
-  SiJavascript,
-  SiNextdotjs,
-  SiReact,
   SiPandas,
+  SiNumpy,
   SiMatrix,
   SiApachespark,
-  SiCreativetechnology,
-  SiStorybook,
-  SiTailwindcss,
+  SiCircuitverse,
+  SiAlwaysdata,
   SiTensorflow,
   SiPowerbi,
   SiTableau,
+  SiScikitlearn,
+  SiArtificial
 } from "react-icons/si";
+import {
+  FcRadarPlot,
+} from "react-icons/fc";
+import {
+   GiArtificialIntelligence, 
+} from "react-icons/gi";
 
 const iconSize = 24;
 
@@ -34,7 +39,7 @@ export const ANALYTICS = [
     linkEnglish: "",
   },
   {
-    title: "Statistik Dasar",
+    title: "Statistika",
     icon: <SiMatrix size={iconSize} className="text-blue-500" />,
     linkIndonesia:
       "https://www.youtube.com/watch?v=Lv0xcdeXaGU&pp=ygUbc3RhdGlzdGljcyBmb3IgZGF0YSBzY2llbmNl",
@@ -48,33 +53,32 @@ export const ANALYTICS = [
     linkEnglish: "",
   },
   {
-    title: "Git & Github",
-    icon: <SiGithub size={iconSize} />,
+    title: "Numpy",
+    icon: <SiNumpy size={iconSize} className="text-blue-400" />,
     linkIndonesia:
-      "https://www.youtube.com/watch?v=lTMZxWMjXQU&list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf",
+      "https://www.youtube.com/watch?v=296nBHsTKwo&list=PLIeJsyt_FUfIeFxVGGNtXrdtaa83NVA2y&index=24",
     linkEnglish: "",
   },
   {
-    title: "Tailwind CSS",
-    icon: <SiTailwindcss size={iconSize} className="text-cyan-300" />,
+    title: "Matplotlib",
+    icon: <FcRadarPlot size={iconSize} />,
     linkIndonesia:
-      "https://www.youtube.com/watch?v=z3slaXqmkT0&list=PLFIM0718LjIUHFRMzPJ0wGjx9_NlC5d1h",
+      "",
     linkEnglish: "",
   },
   {
-    title: "Javascipt Dasar",
-    icon: <SiJavascript size={iconSize} className="text-yellow-400" />,
-    linkIndonesia:
-      "https://www.youtube.com/watch?v=RUTV_5m4VeI&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w",
-    linkEnglish: "",
-  },
-  {
-    title: "Next JS",
-    icon: <SiNextdotjs size={iconSize} />,
-    linkIndonesia:
-      "https://www.youtube.com/watch?v=HNXYveOJPio&list=PLU4DS8KR-LJ3-zouYHHknPq1G5VTB8PRf",
+    title: "Power BI",
+    icon: <SiPowerbi size={iconSize} className="text-yellow-500" />,
+    linkIndonesia: "",
     linkEnglish:
-      "https://www.youtube.com/watch?v=RY6B7JSBRRg&list=PLC3y8-rFHvwgC9mj0qv972IO5DmD-H0ZH&index=2",
+      "",
+  },
+  {
+    title: "Storytelling with Data",
+    icon: <SiAlwaysdata size={iconSize} className="text-cyan-500" />,
+    linkIndonesia:
+      "",
+    linkEnglish: "https://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257?pd_rd_w=GOBtn&content-id=amzn1.sym.7f0cf323-50c6-49e3-b3f9-63546bb79c92&pf_rd_p=7f0cf323-50c6-49e3-b3f9-63546bb79c92&pf_rd_r=PRDGPBNW9STWB7TQTHQW&pd_rd_wg=v8uFy&pd_rd_r=024055bd-f103-4273-9e7f-100ca4cb5886&pd_rd_i=1119002257&psc=1&linkCode=sl1&tag=swdbooks-20&linkId=309f73640a0cb64e3b676e26561d07a0&language=en_US&ref_=as_li_ss_tl",
   },
 ];
 
@@ -89,6 +93,13 @@ export const ANALYTICS = [
 // ];
 
 export const MASTERING_DATA = [
+  {
+    title: "Git & Github",
+    icon: <SiGithub size={iconSize} />,
+    linkIndonesia:
+      "https://www.youtube.com/watch?v=lTMZxWMjXQU&list=PLFIM0718LjIVknj6sgsSceMqlq242-jNf",
+    linkEnglish: "",
+  },
   {
     title: "Python Lanjutan",
     icon: <SiPython size={iconSize} className="text-blue-500" />,
@@ -105,7 +116,7 @@ export const MASTERING_DATA = [
   },
   {
     title: "Spark",
-    icon: <SiReact size={iconSize} className="text-orange-500" />,
+    icon: <SiApachespark size={iconSize} className="text-orange-500" />,
     linkIndonesia: "",
     linkEnglish:
       "",
@@ -118,15 +129,15 @@ export const MASTERING_DATA = [
       "",
   },
   {
-    title: "Power BI",
-    icon: <SiPowerbi size={iconSize} className="text-yellow-500" />,
+    title: "Machine Learning Dasar",
+    icon: <SiCircuitverse size={iconSize} className="text-cyan-700" />,
     linkIndonesia: "",
     linkEnglish:
       "",
   },
   {
-    title: "Machine Learning Dasar",
-    icon: <SiCreativetechnology size={iconSize} className="text-cyan-600" />,
+    title: "Scikit-Learn",
+    icon: <SiScikitlearn size={iconSize} className="text-orange-500" />,
     linkIndonesia: "",
     linkEnglish:
       "",
@@ -134,6 +145,13 @@ export const MASTERING_DATA = [
   {
     title: "TensorFlow",
     icon: <SiTensorflow size={iconSize} className="text-orange-500" />,
+    linkIndonesia: "",
+    linkEnglish:
+      "",
+  },
+  {
+    title: "Basic Artifical Intelligence",
+    icon: <GiArtificialIntelligence size={iconSize} className="text-pink-500" />,
     linkIndonesia: "",
     linkEnglish:
       "",

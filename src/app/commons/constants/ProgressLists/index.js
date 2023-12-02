@@ -1,7 +1,7 @@
 export const PROGRESSLISTS = [
   {
     title: "Languages",
-    gradients: "from-yellow-500 via-orange-500 to-red-500",
+    gradients: "from-yellow-400 via-pastel-600 to-pink-600",
     lists: [
       {
         name: "SQL",
@@ -18,16 +18,28 @@ export const PROGRESSLISTS = [
     ],
   },
   {
-    title: "Frameworks",
-    gradients: "from-blue-500 via-indigo-500 to-purple-500",
+    title: "Tools",
+    gradients: "from-teal-500 via-cyan-500 to-blue-500",
     lists: [
       {
         name: "Pandas",
         level: "34%",
       },
       {
-        name: "Next.js",
-        level: "30%",
+        name: "NumPy",
+        level: "25%",
+      },
+      {
+        name: "Matplotlib",
+        level: "15%",
+      },
+      {
+        name: "PowerBI",
+        level: "15%",
+      },
+      {
+        name: "TensorFlow",
+        level: "10%",
       },
       {
         name: "Other",
