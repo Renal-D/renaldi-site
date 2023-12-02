@@ -20,8 +20,12 @@ import {
   SiApacheairflow,
   SiGooglebigquery,
   SiPowerbi,
-  SiDiscord
-} from 'react-icons/si'
+  SiDiscord,
+  SiNumpy
+} from 'react-icons/si';
+import {
+  FcRadarPlot,
+} from "react-icons/fc";
 
 
 
@@ -39,6 +43,14 @@ export const STACKS = [
   {
     name: 'Pandas',
     icon: <SiPandas size={iconSize} className="text-pink-700" />,
+  },
+  {
+    name: 'Numpy',
+    icon: <SiNumpy size={iconSize} className="text-blue-400" />,
+  },
+  {
+    name: 'Matplotlib',
+    icon: <FcRadarPlot size={iconSize} />,
   },
   {
     name: 'Big Query',

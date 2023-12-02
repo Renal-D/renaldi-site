@@ -12,7 +12,6 @@ import {
   SiPowerbi,
   SiTableau,
   SiScikitlearn,
-  SiArtificial
 } from "react-icons/si";
 import {
   FcRadarPlot,
@@ -49,7 +48,7 @@ export const ANALYTICS = [
     title: "Pandas",
     icon: <SiPandas size={iconSize} className="text-pink-700" />,
     linkIndonesia:
-      "https://www.youtube.com/watch?v=Ls4By2ZWkQY&list=PLIeJsyt_FUfLeEbwefJdmZwb-SDNc_BOd",
+      "https://www.youtube.com/watch?v=Ls4By2ZWkQY&list=PLIeJsyt_FUfIeFxVGGNtXrdtaa83NVA2y&index=29",
     linkEnglish: "",
   },
   {
@@ -63,7 +62,7 @@ export const ANALYTICS = [
     title: "Matplotlib",
     icon: <FcRadarPlot size={iconSize} />,
     linkIndonesia:
-      "",
+      "https://www.youtube.com/watch?v=hHqCdSe7czg&list=PLIeJsyt_FUfIeFxVGGNtXrdtaa83NVA2y&index=36",
     linkEnglish: "",
   },
   {
