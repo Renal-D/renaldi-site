@@ -12,6 +12,8 @@ import {
   SiPowerbi,
   SiTableau,
   SiScikitlearn,
+  SiAdobephotoshop,
+  SiAdobepremierepro,
 } from "react-icons/si";
 import {
   FcRadarPlot,
@@ -157,6 +159,22 @@ export const MASTERING_DATA = [
   },
 ];
 
+export const OTHER = [
+  {
+    title: "Adobe Photoshop",
+    icon: <SiAdobephotoshop size={iconSize} className="text-blue-500" />,
+    linkIndonesia:
+      "",
+    linkEnglish: "",
+  },
+  {
+    title: "Adobe PremierPro",
+    icon: <SiAdobepremierepro size={iconSize} className="text-purple-500" />,
+    linkIndonesia:
+      "",
+    linkEnglish: "",
+  },
+]
 // export const ANALYTICS = [
 //   {
 //     title: "HTML",

@@ -4,6 +4,7 @@ import CourseCard from "./CourseCard";
 import {
   ANALYTICS,
   MASTERING_DATA,
+  OTHER,
 } from "@/app/commons/constants/RoadmapLists";
 import { motion } from "framer-motion";
 import useHasMounted from "@/app/commons/components/hooks/useHasMounted";
@@ -37,6 +38,16 @@ function CourseList() {
           >
             Mastering Data Science
           </div>
+          <div
+            className={`flex items-center cursor-pointer w-fit py-2 px-4 rounded-full font-semibold  ${
+              open === 3
+                ? "bg-neutral-700 text-neutral-100 dark:bg-neutral-300 dark:text-neutral-800"
+                : "bg-neutral-300 dark:text-neutral-100 dark:bg-neutral-800"
+            }`}
+            onClick={() => setOpen(3)}
+          >
+            Other
+          </div>
         </div>
         {open === 1 && (
           <div className="flex flex-col space-y-2 mt-6">
@@ -61,6 +72,26 @@ function CourseList() {
         {open === 2 && (
           <div className="flex flex-col space-y-2 mt-6">
             {MASTERING_DATA.map((item, index) => (
+              <motion.div
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay: index * 0.05 }}
+              >
+                <CourseCard
+                  key={index}
+                  Index={index}
+                  icon={item.icon}
+                  title={item.title}
+                  indonesia={item.linkIndonesia}
+                  english={item.linkEnglish}
+                />
+              </motion.div>
+            ))}
+          </div>
+        )}
+        {open === 3 && (
+          <div className="flex flex-col space-y-2 mt-6">
+            {OTHER.map((item, index) => (
               <motion.div
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
