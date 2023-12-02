@@ -26,7 +26,7 @@ export default function SpotifyCard() {
             <p>Fetch API from Spotify</p>
           </SectionSubHeading>
         </div>
-        <div className="w-full flex bg-neutral-100 dark:bg-neutral-800 rounded-2xl p-4 items-center">
+        <div className="w-full flex bg-neutral-100 dark:bg-neutral-800 rounded-2xl p-4 items-center lg:hover:shadow-md">
           <div className="relative w-full">
             <div className="flex  items-center gap-8">
               <div className="w-[75px] h-[75px] overflow-hidden rounded-lg sm:w-[100px] sm:h-[100px]  bg-neutral-300 dark:bg-neutral-700 animate-pulse">
@@ -78,7 +78,7 @@ export default function SpotifyCard() {
             <p>Fetch API from Spotify</p>
           </SectionSubHeading>
         </div>
-        <div className="w-full flex bg-neutral-100 dark:bg-neutral-800 rounded-2xl p-4 items-center">
+        <div className="w-full flex bg-neutral-100 dark:bg-neutral-800 rounded-2xl p-4 items-center lg:hover:shadow-md">
           <div className="flex justify-between items-center w-full">
             <div className="flex  items-center gap-6">
               <Link href={data?.href} target="_blank" rel="noopener noreferrer">
