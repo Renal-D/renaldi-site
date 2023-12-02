@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <>
       <ContainerAOS>
-        <Index/>
+        <Index />
       </ContainerAOS>
     </>
   )
