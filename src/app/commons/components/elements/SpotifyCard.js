@@ -6,8 +6,6 @@ import { useGetDataSpotify } from "../hooks/useGetDataSpotify";
 import SectionHeading from "./SectionHeading";
 import SectionSubHeading from "./SectionSubHeading";
 import { BiLogoSpotify } from "react-icons/bi";
-import { Progress } from "@nextui-org/react";
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 export default function SpotifyCard() {
@@ -75,7 +73,7 @@ export default function SpotifyCard() {
         <div className="space-y-2">
           <SectionHeading title="Spotify" icon={<BiLogoSpotify className= "text-green-500" size={24} />} />
           <SectionSubHeading>
-            <p>Fetch API from Spotify</p>
+            <p>My Playlist Song</p>
           </SectionSubHeading>
         </div>
         <div className="w-full flex bg-neutral-100 dark:bg-neutral-800 rounded-2xl p-4 items-center lg:hover:shadow-md">

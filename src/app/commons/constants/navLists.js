@@ -13,9 +13,9 @@ const icon_size = 20;
 
 export const navLists = [
   {
-    name: "home",
+    name: "Dashboard",
     link: "/",
-    icon: <BiHome size={icon_size} />,
+    icon: <BiCategoryAlt size={icon_size} />,
   },
   {
     name: "about",
@@ -31,11 +31,6 @@ export const navLists = [
     name: "projects",
     link: "/projects",
     icon: <BiBox size={icon_size} />,
-  },
-  {
-    name: "dashboard",
-    link: "/dashboard",
-    icon: <BiCategoryAlt size={icon_size} />,
   },
   {
     name: "contact",
