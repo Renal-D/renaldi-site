@@ -40,7 +40,7 @@ function Notification({ notification }) {
 
   return (
     <div className="space-y-2">
-      <h1 className="text-md">Or send me a message</h1>
+      <h1 className="text-md">Or send me an e-mail</h1>
       {notification && <Notification notification={notification} />}
       <form onSubmit={handleFormSubmit} className="space-y-4">
         <div className="grid lg:grid-cols-2 gap-4">
