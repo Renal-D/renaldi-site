@@ -47,14 +47,14 @@ export default function ProjectDetail({ params }) {
                     href={project.link_github}
                     className="flex items-center gap-2"
                   >
-                    <SiGithub className="text-2xl" /> Source Code
+                    <SiGithub className="text-2xl" /> Source-Code
                   </Link>{" "}
                   |{" "}
                   <Link
-                    href={project.link_demo}
+                    href={project.view_project}
                     className="flex items-center gap-2"
                   >
-                    <BiLinkExternal className="text-2xl" /> Demo
+                    <BiLinkExternal className="text-2xl" /> View-Project
                   </Link>
                 </div>
               </div>

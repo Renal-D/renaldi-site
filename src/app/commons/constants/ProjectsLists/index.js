@@ -1,6 +1,5 @@
 import {
   SiJavascript,
-  SiHtml5,
   SiTailwindcss,
   SiNextdotjs,
   SiFramer,
@@ -9,19 +8,20 @@ import {
   SiTableau,
   SiMysql,
   SiGooglebigquery,
-  SiAdobelightroom
+  SiAdobelightroom,
+  SiTensorflow
 } from "react-icons/si";
 
 const iconSize = 24;
 
 export const PROJECTSLISTS = [
   {
-    id: 5,
-    title: "Data Science Project - Games Sales",
-    description: "Data Science portfolio built with Python, MySQL, and Big Query",
-    slug: "dspmarketing",
-    link_demo: "https://github.com/Renal-D/games_sales/blob/main/RevoU_CaseStudy_RR.pptx",
-    link_github: "https://github.com/Renal-D/games_sales",
+    id: 6,
+    title: "Data Science-Bisnis Esports di Indonesia",
+    description: "SOON",
+    slug: "dsp-business",
+    view_project: "",
+    link_github: "https://github.com/Renal-D",
     tech_stack: [{
       title: "Python",
       icon: <SiPython size={iconSize} className="text-blue-500" />,
@@ -35,6 +35,41 @@ export const PROJECTSLISTS = [
       icon: <SiGooglebigquery size={iconSize} className="text-blue-500" />,
     },
     {
+      title: "Tensor Flow",
+      icon: <SiTensorflow size={iconSize} className="text-orange-600" />,
+    },
+    ],
+    
+    tooltip: ["Python", "MySQL", "Big Query, Tensor Flow"],
+    aos_delay: 600,
+    image:
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610907/sunny_yndbtr.png",
+    is_show: true,
+    is_featured: true,
+    params: {
+      slug: "dsp-business",
+    },
+  },
+  {
+    id: 5,
+    title: "Data Science Project - Games Sales",
+    description: "Data Science portfolio built with Python, MySQL, and Big Query",
+    slug: "dspmarketing",
+    view_project: "https://github.com/Renal-D/games_sales/blob/main/RevoU_CaseStudy_RR.pptx",
+    link_github: "https://github.com/Renal-D/games_sales",
+    tech_stack: [{
+      title: "Python",
+      icon: <SiPython size={iconSize} className="text-blue-500" />,
+    },
+    {
+      title: "MySQL",
+      icon: <SiMysql size={iconSize} className="text-orange-500" />,
+    },
+    {
+      title: "Tableau",
+      icon: <SiTableau size={iconSize} className="text-blue-800" />,
+    },
+    {
       title: null,
       icon: null,
     },
@@ -43,7 +78,7 @@ export const PROJECTSLISTS = [
     tooltip: ["Python", "MySQL", "Tableau"],
     aos_delay: 600,
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701481888/OIG_qa0af0.jpg",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610907/quinnie_bkcq8w.png",
     is_show: true,
     is_featured: true,
     params: {
@@ -56,7 +91,7 @@ export const PROJECTSLISTS = [
     description:
       "Personal website and portfolio built with Next Js, Javascript and Tailwind CSS",
     slug: "port-v1",
-    link_demo: "https://renaldidwi.vercel.app",
+    view_project: "https://renaldidwi.vercel.app",
     link_github: "https://github.com/Renal-D/portfolio",
     tech_stack: [
       {
@@ -81,7 +116,7 @@ export const PROJECTSLISTS = [
     aos_delay: 200,
 
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1700837124/renal_port_huci6t.png",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610905/carmine1_in7hbi.png",
     is_show: true,
     is_featured: true,
     params: {
@@ -94,7 +129,7 @@ export const PROJECTSLISTS = [
     description:
       "Personal landing page built with Next.js Parallax  ",
     slug: "parallax",
-    link_demo: "",
+    view_project: "",
     link_github: "https://github.com/renal-d",
     tech_stack: [
       {
@@ -119,7 +154,7 @@ export const PROJECTSLISTS = [
     aos_delay: 400,
 
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1700837125/parallax_uec9sf.png",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610904/YoRi_upmczr.png",
     is_show: true,
     is_featured: false,
     params: {
@@ -131,7 +166,7 @@ export const PROJECTSLISTS = [
     title: "AI Photo",
     description: "AI Photo RRQ Livi",
     slug: "aiphoto",
-    link_demo: "",
+    view_project: "",
     link_github: "",
     tech_stack: [ {
       title: "Photoshop",
@@ -154,7 +189,7 @@ export const PROJECTSLISTS = [
     tooltip: ["Photoshop","Lightroom"],
     aos_delay: 800,
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1700837733/DreamShaper_v7_masterpiece_realistic_portrait_of_a_girl_beauti_0_ftktse.jpg",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610904/aisyah_lohnnl.png",
     is_show: true,
     is_featured: false,
     params: {
@@ -165,8 +200,8 @@ export const PROJECTSLISTS = [
     id: 1,
     title: "Tes aja",
     description: "sekedar tes program",
-    slug: "Liviphoto",
-    link_demo: "",
+    slug: "photo",
+    view_project: "",
     link_github: "",
     tech_stack: [ {
       title: "Photoshop",
@@ -189,11 +224,11 @@ export const PROJECTSLISTS = [
     tooltip: ["Photoshop"],
     aos_delay: 800,
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701494264/liviii_zsevdr.jpg",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610908/satine_cgtbas.png",
     is_show: true,
     is_featured: false,
     params: {
-      slug: "Liviphoto",
+      slug: "photo",
     },
   },
 ];

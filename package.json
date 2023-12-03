@@ -17,6 +17,7 @@
     "clsx": "^2.0.0",
     "eslint-config-next": "^14.0.0",
     "firebase": "^10.7.0",
+    "firebaseui": "^6.1.0",
     "framer-motion": "^10.16.4",
     "next": "^14.0.3",
     "next-themes": "^0.2.1",
