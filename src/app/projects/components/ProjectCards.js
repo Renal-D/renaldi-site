@@ -30,7 +30,7 @@ export default function ProjectsCards({
             </div>
           )}
           <div className="flex flex-col">
-            <div className="h-48 overflow-hidden w-auto rounded-t-xl">
+            <div className="h-44 overflow-hidden w-auto rounded-t-xl">
               <motion.div
                 initial={{ filter: "blur(20px)" }}
                 animate={{ filter: "blur(0px)" }}
@@ -38,7 +38,7 @@ export default function ProjectsCards({
                 className="relative"
               >
                 <div className="absolute hidden left-0 right-0 top-0 bottom-0 z-[2] group-hover:flex items-center justify-center group-hover:bg-neutral-900/70 text-white transition-all duration-300 ease-in-out">
-                  <h1>View Project</h1>
+                  <h1>View</h1>
                   <BiRightArrowAlt size={18}/>
                 </div>
                 <Image
@@ -51,10 +51,10 @@ export default function ProjectsCards({
                 ></Image>
               </motion.div>
             </div>
-            <div className="px-5 py-6 space-y-3">
+            <div className="px-5 py-1 space-y-2">
               <h1 className="text-xl group-hover:text-teal-500">{title}</h1>
               <p className="line-clamp-2 text-sm">{description}</p>
-              <div className="flex gap-2 pt-2">
+              <div className="flex gap-2 pt-2 pb-2">
                 {tech_stack.map((children) => {
                   return <>{children.icon}</>;
                 })}

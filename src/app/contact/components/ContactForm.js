@@ -83,7 +83,7 @@ function Notification({ notification }) {
           disabled={state.submitting}
           className="bg-neutral-600 hover:bg-neutral-700 text-neutral-200 rounded-lg py-2 px-4 w-full"
         >
-          {state.submitting ? "Sending..." : "Submit"}
+          {state.submitting ? "Sending..." : "Send E-mail"}
         </button>
       </form>
     </div>

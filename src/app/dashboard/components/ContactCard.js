@@ -1,8 +1,5 @@
 import Link from 'next/link'
-import SectionHeading from './../../commons/components/elements/SectionHeading';
-import SectionSubHeading from './../../commons/components/elements/SectionSubHeading';
 import {BiRocket} from 'react-icons/bi'
-
 
 export default function ContactCard() {
   return (

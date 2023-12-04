@@ -17,7 +17,7 @@ export const PROJECTSLISTS = [
   {
     id: 6,
     title: "Data Science-Bisnis Esports di Indonesia",
-    description: "SOON",
+    description: "Soon Soon Soon Soon Soon Soon Soon Soon Soon Soon",
     slug: "dsp-business",
     view_project: "",
     link_github: "https://github.com/Renal-D",
@@ -116,7 +116,7 @@ export const PROJECTSLISTS = [
     image:
       "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610905/carmine1_in7hbi.png",
     is_show: true,
-    is_featured: true,
+    is_featured: false,
     params: {
       slug: "port-v1",
     },
@@ -125,7 +125,7 @@ export const PROJECTSLISTS = [
     id: 3,
     title: "Parallax",
     description:
-      "Personal landing page built with Next.js Parallax",
+      "Personal landing page built with Next.js - Parallax Project",
     slug: "parallax",
     view_project: "",
     link_github: "https://github.com/renal-d",
