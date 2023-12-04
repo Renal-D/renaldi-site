@@ -5,7 +5,7 @@ import Career from './Career'
 import GithubHeader from "./GithubHeader"
 import SpotifyCard from "@/app/commons/components/elements/SpotifyCard"
 import SkillLists from './SkillList'
-import ContactCard from './ContactCard'
+import ResumeCard from './ResumeCard'
 import ContainerAOS from './../../commons/components/elements/ContainerAOS'
 
 export default function Index() {
@@ -22,7 +22,7 @@ export default function Index() {
       <Divider orientation='horizontal' className='my-6'/>
       <GithubHeader />
       <DashedDivider orientation='horizontal' className="my-6"/>
-      <ContactCard/>
+      <ResumeCard/>
       </div>
     </ContainerAOS>
   )
