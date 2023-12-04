@@ -1,4 +1,3 @@
-import { stacks } from './../../commons/constants/stacks';
 import {Tooltip} from "@nextui-org/react";
 
 export default function SkillCard({name, icon}) {
@@ -8,9 +7,7 @@ export default function SkillCard({name, icon}) {
       <div className="p-2 flex items-center justify-center">
         <div className="w-6 h-6 ">{icon}</div>
       </div>
-      </Tooltip>
-      
+      </Tooltip> 
     </>
-    
   )
 }

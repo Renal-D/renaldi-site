@@ -9,10 +9,10 @@ function Contact() {
   return (
     <div className="space-y-6">
       <Header />
-      <DashedDivider />
-      <ContactCard />
-      <Divider />
-      <App />
+      <DashedDivider/>
+      <ContactCard/>
+      <Divider/>
+      <App/>
     </div>
   );
 }

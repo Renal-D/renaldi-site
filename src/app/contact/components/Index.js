@@ -1,4 +1,3 @@
-import ContainerAOS from "@/app/commons/components/elements/ContainerAOS";
 import Contact from "./Contact";
 
 export default function Index() {

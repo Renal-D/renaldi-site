@@ -28,5 +28,4 @@ function ContactCard() {
     </div>
   );
 }
-
 export default ContactCard;

@@ -26,7 +26,7 @@ function NProgressDone() {
 export default function TopLoader() {
   return (
     <>
-      <NProgressDone />
+      <NProgressDone/>
     </>
   );
 }

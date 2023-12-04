@@ -23,7 +23,7 @@ export default function EducationCard() {
               transition={{ duration: 0.5, delay: 0.5 }}
               className=""
             >
-              <Image src={item.logo} width={60} height={60} alt={item.title} />
+              <Image src={item.logo} width={60} height={60} alt={item.title}/>
             </motion.div>
             <div className="flex flex-col space-y-2">
               <Link

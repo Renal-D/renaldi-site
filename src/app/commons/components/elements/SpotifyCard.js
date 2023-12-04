@@ -19,7 +19,7 @@ export default function SpotifyCard() {
     return (
       <div className="space-y-6">
         <div className="space-y-2">
-          <SectionHeading title="Spotify" icon={<BiLogoSpotify className= "text-green-500" size={24} />} />
+          <SectionHeading title="Spotify" icon={<BiLogoSpotify className= "text-green-500" size={24} />}/>
           <SectionSubHeading>
             <p>Fetch API from Spotify</p>
           </SectionSubHeading>
@@ -60,7 +60,7 @@ export default function SpotifyCard() {
               rel="noopener noreferrer"
               className="absolute top-0 right-0 "
             >
-              <BiLogoSpotify className="md:w-8 md:h-8 h-5 w-5" />
+              <BiLogoSpotify className="md:w-8 md:h-8 h-5 w-5"/>
             </Link>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function SpotifyCard() {
     return (
       <div className="space-y-6">
         <div className="space-y-2">
-          <SectionHeading title="Spotify" icon={<BiLogoSpotify className= "text-green-500" size={24} />} />
+          <SectionHeading title="Spotify" icon={<BiLogoSpotify className= "text-green-500" size={24} />}/>
           <SectionSubHeading>
             <p>My Playlist Song</p>
           </SectionSubHeading>
@@ -107,7 +107,7 @@ export default function SpotifyCard() {
                 </h1>
               </div>
             </div>
-            <div className="flex flex-col gap-12 items-center h-full " >
+            <div className="flex flex-col gap-12 items-center h-full" >
               <motion.div animate={{ rotate: 360 }} 
                 transition={{ duration: 2, repeat: Infinity, ease: 'linear' }} >
               <Link
@@ -116,10 +116,10 @@ export default function SpotifyCard() {
                 rel="noopener noreferrer"
                 className=" top-0 right-0 "
               >
-                <BiLogoSpotify className="md:w-8 md:h-8 h-5 w-5 text-green-500" />
+                <BiLogoSpotify className="md:w-8 md:h-8 h-5 w-5 text-green-500"/>
               </Link>
               </motion.div>
-              <h1 className="text-sm font-semibold right-0 bottom-0 ">
+              <h1 className="text-sm font-semibold right-0 bottom-0">
                 {duration_menit}
               </h1>
             </div>

@@ -11,16 +11,15 @@ function RoadmapPage() {
   return (
     <div className="space-y-6">
       <div className="space-y-2">
-        <SectionHeading title="Roadmap" />
+        <SectionHeading title="Roadmap"/>
         <SectionSubHeading>
           <p>My journey of learning.</p>
           <p className="text-xs">Click on the {isMobile ? "ID/EN" : "Indonesia/English"} Button</p>
         </SectionSubHeading>
       </div>
-      <DashedDivider />
-      <CourseList />
+      <DashedDivider/>
+      <CourseList/>
     </div>
   );
 }
-
 export default RoadmapPage;

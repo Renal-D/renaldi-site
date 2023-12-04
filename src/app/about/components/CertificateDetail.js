@@ -19,7 +19,7 @@ export default function CertificateDetail() {
       {ceritificate && (
         <div className="space-y-6">
           <div className="space-y-2">
-            <BackButton href={"/about"} />
+            <BackButton href={"/about"}/>
             <SectionHeading
               title={ceritificate.title}
             />

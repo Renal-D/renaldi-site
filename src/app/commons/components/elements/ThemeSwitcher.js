@@ -1,5 +1,4 @@
 "use client";
-import { useState, useEffect } from "react";
 import { BsCloudMoon, BsCloudSun } from "react-icons/bs";
 import { useTheme } from "next-themes";
 import { motion } from 'framer-motion'
@@ -20,7 +19,7 @@ export default function ThemeSwitcher() {
   onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
   aria-label='toggletheme'
   >
-  {theme === "light" ? <BsCloudMoon size={18} /> : <BsCloudSun size={18} />}
+  {theme === "light" ? <BsCloudMoon size={18}/> : <BsCloudSun size={18}/>}
   </motion.button>
 
   );

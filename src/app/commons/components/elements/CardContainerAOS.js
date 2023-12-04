@@ -23,11 +23,4 @@ export default function CardContainerAOS({ children,delayAOS,className }) {
         { children }
       </div>
     )
-
-
-  // return (
-  //   <div className={className} data-aos='fade-up' data-aos-delay={delayAOS}>
-  //     { children }
-  //   </div>
-  // )
 }

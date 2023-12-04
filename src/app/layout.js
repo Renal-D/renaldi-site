@@ -9,7 +9,6 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
-
 const sora = Sora({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
@@ -19,14 +18,13 @@ export const metadata = {
   title: "Renaldi | Personal Website",
   description: "Personal website, portfolio, roadmap, and more",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="light">
       <body className={sora.className}>
         <Providers>
-          <SpotifyTop />
-          <TopLoader />
+          <SpotifyTop/>
+          <TopLoader/>
           <Layouts>{children}</Layouts>
         </Providers>
       </body>

@@ -1,5 +1,4 @@
 "use client";
-
 import { useParams } from "next/navigation";
 import { PROJECTSLISTS } from "@/app/commons/constants/ProjectsLists";
 import SectionHeading from "@/app/commons/components/elements/SectionHeading";
@@ -10,15 +9,12 @@ import { SiGithub } from "react-icons/si";
 import { BiLinkExternal } from "react-icons/bi";
 import Link from "next/link";
 import Image from "next/image";
-import { Tooltip } from "@nextui-org/react";
 
 export default function ProjectDetail({ params }) {
   const _params = useParams();
-
   const project = PROJECTSLISTS.find(
     (project) => project.slug === _params.slug
   );
-
   return (
     <>
       <div className="h-screen">
@@ -26,12 +22,12 @@ export default function ProjectDetail({ params }) {
           <div className="space-y-6 ">
             <div className="space-y-2">
               <BackButton href={'/projects'} />
-              <SectionHeading title={project.title} />
+              <SectionHeading title={project.title}/>
               <SectionSubHeading>
                 <p>{project.description}</p>
               </SectionSubHeading>
             </div>
-            <DashedDivider />
+            <DashedDivider/>
             <div className="space-y-2">
               <div className="flex md:justify-between md:flex-row flex-col space-y-6 md:space-y-0">
                 <div className="flex  items-center gap-2 text-sm">
@@ -69,7 +65,6 @@ export default function ProjectDetail({ params }) {
                 className="w-full hover:scale-105 scale-100 transition-all duration-300 ease-in-out"
               />
             </div>
-
             <p>I Dont Have README.md</p>
           </div>
         )}

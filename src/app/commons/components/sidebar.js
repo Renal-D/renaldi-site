@@ -92,7 +92,7 @@ export default function Sidebar() {
                 isActive ? "flex" : "hidden"
               }`}
             >
-              <Divider orientation="horizontal" className="md:my-4 mb-4" />
+              <Divider orientation="horizontal" className="md:my-4 mb-4"/>
               <ul className="flex flex-col space-y-2">
                 {navLists.map(({ name, link, icon }) => (
                   <li
@@ -117,7 +117,7 @@ export default function Sidebar() {
               orientation="horizontal"
               className="my-4 md:flex hidden "
             />
-            <Copyright />
+            <Copyright/>
           </div>
         </aside>
       </div>

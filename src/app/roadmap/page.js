@@ -6,10 +6,9 @@ function Roadmap() {
   return (
     <>
       <ContainerAOS>
-        <RoadmapPage />
+        <RoadmapPage/>
       </ContainerAOS>
     </>
   );
 }
-
 export default Roadmap;

@@ -1,10 +1,7 @@
 import SectionHeading from './../../commons/components/elements/SectionHeading';
 import SectionSubHeading from './../../commons/components/elements/SectionSubHeading';
 import EducationCard from './EducationCard'
-import EDULISTS from '../../commons/constants/EducationList'
 import { TbSchool } from "react-icons/tb";
-import Image from 'next/image'
-import Link from 'next/link'
 
 export default function Education() {
   return (
@@ -16,7 +13,7 @@ export default function Education() {
           <p>My educational journey.</p>
         </SectionSubHeading>
       </div>
-          <EducationCard />
+          <EducationCard/>
     </div>
     
     </>

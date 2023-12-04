@@ -9,7 +9,7 @@ export default function Career() {
     <div className="space-y-6">
       <div className="space-y-2">
         <SectionHeading
-          icon={<BiBriefcaseAlt2 className="mr-1" />}
+          icon={<BiBriefcaseAlt2 className="mr-1"/>}
           title={"Career"}
         />
         <SectionSubHeading>

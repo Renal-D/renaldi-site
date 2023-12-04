@@ -13,7 +13,6 @@ import {
 } from "react-icons/si";
 
 const iconSize = 24;
-
 export const PROJECTSLISTS = [
   {
     id: 6,
@@ -24,23 +23,23 @@ export const PROJECTSLISTS = [
     link_github: "https://github.com/Renal-D",
     tech_stack: [{
       title: "Python",
-      icon: <SiPython size={iconSize} className="text-blue-500" />,
+      icon: <SiPython size={iconSize} className="text-blue-500"/>,
     },
     {
       title: "MySQL",
-      icon: <SiMysql size={iconSize} className="text-orange-500" />,
+      icon: <SiMysql size={iconSize} className="text-orange-500"/>,
     },
     {
       title: "Big Query",
-      icon: <SiGooglebigquery size={iconSize} className="text-blue-500" />,
+      icon: <SiGooglebigquery size={iconSize} className="text-blue-500"/>,
     },
     {
       title: "Tensor Flow",
-      icon: <SiTensorflow size={iconSize} className="text-orange-600" />,
+      icon: <SiTensorflow size={iconSize} className="text-orange-600"/>,
     },
     ],
     
-    tooltip: ["Python", "MySQL", "Big Query, Tensor Flow"],
+    tooltip: ["Python","MySQL","Big Query","Tensor Flow"],
     aos_delay: 600,
     image:
       "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610907/sunny_yndbtr.png",
@@ -59,15 +58,15 @@ export const PROJECTSLISTS = [
     link_github: "https://github.com/Renal-D/games_sales",
     tech_stack: [{
       title: "Python",
-      icon: <SiPython size={iconSize} className="text-blue-500" />,
+      icon: <SiPython size={iconSize} className="text-blue-500"/>,
     },
     {
       title: "MySQL",
-      icon: <SiMysql size={iconSize} className="text-orange-500" />,
+      icon: <SiMysql size={iconSize} className="text-orange-500"/>,
     },
     {
       title: "Tableau",
-      icon: <SiTableau size={iconSize} className="text-blue-800" />,
+      icon: <SiTableau size={iconSize} className="text-blue-800"/>,
     },
     {
       title: null,
@@ -75,7 +74,7 @@ export const PROJECTSLISTS = [
     },
     ],
     
-    tooltip: ["Python", "MySQL", "Tableau"],
+    tooltip: ["Python","MySQL","Tableau"],
     aos_delay: 600,
     image:
       "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610907/quinnie_bkcq8w.png",
@@ -93,26 +92,25 @@ export const PROJECTSLISTS = [
     slug: "port-v1",
     view_project: "https://renaldidwi.vercel.app",
     link_github: "https://github.com/Renal-D/portfolio",
-    tech_stack: [
-      {
+    tech_stack: [{
         title: "Nextjs",
-        icon: <SiNextdotjs size={iconSize} />,
+        icon: <SiNextdotjs size={iconSize}/>,
       },
       {
         title: "TailwindCSS",
-        icon: <SiTailwindcss size={iconSize} className="text-cyan-300" />,
+        icon: <SiTailwindcss size={iconSize} className="text-cyan-300"/>,
       },
       {
         title: "Javascript",
-        icon: <SiJavascript size={iconSize} className="text-yellow-400" />,
+        icon: <SiJavascript size={iconSize} className="text-yellow-400"/>,
       },
       {
         title: "Framer",
-        icon: <SiFramer size={iconSize} />,
+        icon: <SiFramer size={iconSize}/>,
       },
     ],
 
-    tooltip: ["Next.js", "Tailwind CSS", "Javascript", "Framer Motion"],
+    tooltip: ["Next.js","Tailwind CSS","Javascript","Framer Motion"],
     aos_delay: 200,
 
     image:
@@ -127,22 +125,21 @@ export const PROJECTSLISTS = [
     id: 3,
     title: "Parallax",
     description:
-      "Personal landing page built with Next.js Parallax  ",
+      "Personal landing page built with Next.js Parallax",
     slug: "parallax",
     view_project: "",
     link_github: "https://github.com/renal-d",
-    tech_stack: [
-      {
+    tech_stack: [{
         title: "Nextjs",
-        icon: <SiNextdotjs size={iconSize} />,
+        icon: <SiNextdotjs size={iconSize}/>,
       },
       {
         title: "TailwindCSS",
-        icon: <SiTailwindcss size={iconSize} className="text-cyan-300" />,
+        icon: <SiTailwindcss size={iconSize} className="text-cyan-300"/>,
       },
       {
         title: "Javascript",
-        icon: <SiJavascript size={iconSize} className="text-yellow-400" />,
+        icon: <SiJavascript size={iconSize} className="text-yellow-400"/>,
       },
       {
         title: null,
@@ -150,7 +147,7 @@ export const PROJECTSLISTS = [
       },
     ],
 
-    tooltip: ["Next.js", "Tailwind CSS", "Javascript"],
+    tooltip: ["Next.js","Tailwind CSS","Javascript"],
     aos_delay: 400,
 
     image:
@@ -168,13 +165,13 @@ export const PROJECTSLISTS = [
     slug: "aiphoto",
     view_project: "",
     link_github: "",
-    tech_stack: [ {
+    tech_stack: [{
       title: "Photoshop",
-      icon: <SiAdobephotoshop size={iconSize} className="text-blue-500" />,
+      icon: <SiAdobephotoshop size={iconSize} className="text-blue-500"/>,
     },
     {
       title: "Lightroom",
-      icon: <SiAdobelightroom size={iconSize} className="text-cyan-700" />,
+      icon: <SiAdobelightroom size={iconSize} className="text-cyan-700"/>,
     },
     {
       title: null,
@@ -203,9 +200,9 @@ export const PROJECTSLISTS = [
     slug: "photo",
     view_project: "",
     link_github: "",
-    tech_stack: [ {
+    tech_stack: [{
       title: "Photoshop",
-      icon: <SiAdobephotoshop size={iconSize} className="text-blue-500" />,
+      icon: <SiAdobephotoshop size={iconSize} className="text-blue-500"/>,
     },
     {
       title: null,

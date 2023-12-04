@@ -39,7 +39,7 @@ export default function Me({ activeProps }) {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            <div className="rounded-full overflow-hidden ">
+            <div className="rounded-full overflow-hidden">
               <motion.img
                 initial={{ filter: "blur(20px)" }}
                 animate={{ filter: "blur(0px)" }}

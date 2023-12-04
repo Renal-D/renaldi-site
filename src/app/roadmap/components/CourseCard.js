@@ -24,7 +24,6 @@ function CourseCard({ Index, icon, title, indonesia, english }) {
               </Link>
             </Tooltip>
           )}
-
           {english && (
             <Tooltip content="Link!" radius="sm">
               <Link
@@ -41,5 +40,4 @@ function CourseCard({ Index, icon, title, indonesia, english }) {
     </>
   );
 }
-
 export default CourseCard;

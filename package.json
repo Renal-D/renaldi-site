@@ -16,8 +16,6 @@
     "axios": "^1.6.1",
     "clsx": "^2.0.0",
     "eslint-config-next": "^14.0.0",
-    "firebase": "^10.7.0",
-    "firebaseui": "^6.1.0",
     "framer-motion": "^10.16.4",
     "next": "^14.0.3",
     "next-themes": "^0.2.1",
@@ -31,8 +29,6 @@
     "react-fast-marquee": "^1.6.2",
     "react-github-calendar": "^4.0.6",
     "react-icons": "^4.11.0",
-    "react-oauth": "^0.0.1",
-    "react-oauth2-login": "^1.0.3",
     "swiper": "^11.0.5",
     "swr": "^2.2.4"
   },

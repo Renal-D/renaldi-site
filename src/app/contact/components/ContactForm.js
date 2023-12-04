@@ -5,12 +5,9 @@ import { useForm, ValidationError } from "@formspree/react";
 function ContactForm() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID);
   const [notification, setNotification] = useState(null);
-
-
   const inputName = useRef(null);
   const inputEmail = useRef(null);
   const inputMessage = useRef(null);
-
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     await handleSubmit(e);
@@ -41,7 +38,7 @@ function Notification({ notification }) {
   return (
     <div className="space-y-2">
       <h1 className="text-md">Or send me an e-mail</h1>
-      {notification && <Notification notification={notification} />}
+      {notification && <Notification notification={notification}/>}
       <form onSubmit={handleFormSubmit} className="space-y-4">
         <div className="grid lg:grid-cols-2 gap-4">
           <input
@@ -53,7 +50,7 @@ function Notification({ notification }) {
             required
             className="bg-neutral-50 dark:bg-neutral-900 dark:outline-neutral-700 w-full rounded-lg p-2 outline outline-neutral-300 focus:outline-neutral-400"
           />
-          <ValidationError prefix="name" field="Name" errors={state.errors} />
+          <ValidationError prefix="name" field="Name" errors={state.errors}/>
           <input
             id="email"
             type="email"
@@ -63,7 +60,7 @@ function Notification({ notification }) {
             required
             className="bg-neutral-50 dark:bg-neutral-900 dark:outline-neutral-700 w-full rounded-lg p-2 outline outline-neutral-300 focus:outline-neutral-400"
           />
-          <ValidationError prefix="Email" field="email" errors={state.errors} />
+          <ValidationError prefix="Email" field="email" errors={state.errors}/>
         </div>
         <div>
           <textarea

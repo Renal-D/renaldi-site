@@ -7,14 +7,10 @@ export default function CertificatesCard({
   title,
   image,
   description,
-  diberikan,
-  berlaku,
-  id_certificate,
   slug,
   Index,
 }) {
   const mounted = useHasMounted();
-
   if (!mounted) return null;
   return (
     <>
@@ -37,7 +33,6 @@ export default function CertificatesCard({
                 className="rounded-xl sm:w-32   h-fit brightness-100 dark:brightness-90"
               />
             </motion.div>
-
             <div className="flex flex-col items-start sm:justify-start justify-center sm:text-start ">
               <h1 className="text-lg font-medium sm:w-64 w-72 sm:line-clamp-none line-clamp-1 sm:mx-0 mx-auto">
                 {title}

@@ -5,7 +5,7 @@ export default function SlugCertificate() {
   return (
     <>
       <ContainerAOS>
-        <CertificateDetail />
+        <CertificateDetail/>
       </ContainerAOS>
     </>
   );

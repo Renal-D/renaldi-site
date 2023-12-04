@@ -13,7 +13,6 @@ function CourseList() {
   const [open, setOpen] = useState(1);
   const mounted = useHasMounted();
   if (!mounted) return null;
-
   return (
     <>
       <div className="flex flex-col justify-center w-full">
@@ -113,5 +112,4 @@ function CourseList() {
     </>
   );
 }
-
 export default CourseList;

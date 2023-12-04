@@ -11,16 +11,14 @@ const LazyprojectCard = dynamic(() => import("./ProjectCards"));
 
 export default function ProjectsLists() {
   const filteredProjects = PROJECTSLISTS.filter((project) => project?.is_show);
-
   if (filteredProjects.length === 0) {
     return <SectionHeading title={"No Projects Found"} />;
   }
-
   return (
     <div className="">
       <div className="space-y-6">
         <div className="space-y-2">
-          <SectionHeading title="Projects" />
+          <SectionHeading title="Projects"/>
           <SectionSubHeading>
             <p className="dark:text-neutral-400">
               Showcasing my passion for technology, design, and problem-solving
@@ -28,7 +26,7 @@ export default function ProjectsLists() {
             </p>
           </SectionSubHeading>
         </div>
-        <DashedDivider />
+        <DashedDivider/>
         <div className="grid sm:grid-cols-2  justify-center gap-5 mb-10">
           {filteredProjects.map((project, index) => (
             <motion.div
@@ -50,16 +48,6 @@ export default function ProjectsLists() {
                 link_github={project.link_github}
                 tooltip={project.tooltip}
               />
-              {/* <LazyprojectCard
-                is_featured={project.is_featured}
-                Index={index}
-                key={index}
-                image={project.image}
-                title={project.title}
-                description={project.description}
-                tech_stack={project.tech_stack}
-                slug={project.slug}
-              /> */}
             </motion.div>
           ))}
         </div>

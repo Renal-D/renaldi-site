@@ -8,7 +8,6 @@ import { Tooltip } from "@nextui-org/react";
 
 import { useTheme } from "next-themes";
 import useHasMounted from "@/app/commons/components/hooks/useHasMounted";
-// import { GITHUB_ACCOUNTS } from "@/app/commons/constants/github";
 
 function GithubHeader() {
   const { theme, setTheme } = useTheme();
@@ -25,7 +24,7 @@ function GithubHeader() {
   return (
     <div className="space-y-6">
       <div className="space-y-2">
-        <SectionHeading title="Github" icon={<BiLogoGithub size={24} />} />
+        <SectionHeading title="Github" icon={<BiLogoGithub size={24} />}/>
         <SectionSubHeading>
           <p>My Github Contributions</p>
           <Link href="https://github.com/renal-d" target="_blank">
@@ -58,5 +57,4 @@ function GithubHeader() {
     </div>
   );
 }
-
 export default GithubHeader;
