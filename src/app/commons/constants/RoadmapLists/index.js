@@ -14,7 +14,7 @@ import {
   SiScikitlearn,
   SiAdobephotoshop,
   SiAdobepremierepro,
-  SiMicrosoftexcel
+  SiGooglesheets,
 } from "react-icons/si";
 import {
   FcRadarPlot,
@@ -48,7 +48,7 @@ export const ANALYTICS = [
   },
   {
     title: "Spreadsheet",
-    icon: <SiMicrosoftexcel size={iconSize} className="text-green-700"/>,
+    icon: <SiGooglesheets size={iconSize} className="text-green-700"/>,
     linkIndonesia:
       "",
     linkEnglish: "",

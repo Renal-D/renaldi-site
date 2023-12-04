@@ -11,7 +11,7 @@ export default function HeaderHome() {
         <li className='list-disc text-md'>Beginner Data Scientist</li>
         <li className='list-disc text-md'>Based in Sidoarjo 🇮🇩</li>
       </ul>
-      <p className='my-2 md:leading-9 leading-7 text-sm'>An enthusiastic and experienced junior Data Scientist with a strong focus on Data Analytics. Proficient in data and has a deep understanding of all aspects of technology. Collaborative team player dedicated to generating good insights from data.</p>
+      <p className='my-1 md:leading-9 leading-7 text-sm ml-5 italic'>Love Data, Technology, Artificial Intelligence , and Esport Indutry.</p>
     </div>
   )
 }

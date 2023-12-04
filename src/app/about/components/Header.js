@@ -13,12 +13,12 @@ export default function Header() {
       <div className='border-b border-dashed border-neutral-600 dark:border-neutral-500'></div>
       <p className='font-light text-md leading-7'>
       Hi, my name is Renaldi Dwi, also known as Renaldi, I am an aspiring beginner data analytics with only one month of experience. 
-      He has demonstrated dedication and a keen ability to master a wide range of data analytics. Renaldi's journey started with a strong foundation in SQL, Python and 
+      I am very dedicated and a keen ability to master a wide range of data analytics. My journey started with a strong foundation in SQL, Python and 
       Statistics as well as some business understanding, enabling him to create insights from existing data.</p>
       <p className='font-light text-md leading-7'>
-      I am really passionate in data analytics because I want to solve major problem in Indonesia using data. As an science graduate, I have affinity to work with number. 
-      Data analytics successfully combines aspects of work that I enjoy such as computation, business, and visualization. I stay current with industry trends and 
-      best practices to provide innovative solutions that surpass company expectations. My strong problem-solving skills and attention to detail drive innovation in every project I handle.</p>
+      As an science graduate, I have affinity to work with number. Data analytics successfully combines aspects of work that I enjoy such as 
+      computation, business, and visualization. I stay current with industry trends and best practices to provide innovative solutions that surpass 
+      company expectations. My strong problem-solving skills and attention to detail drive innovation in every project I handle.</p>
     </div>
     </>
   )

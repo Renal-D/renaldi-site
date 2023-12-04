@@ -1,14 +1,10 @@
-import { Sora, Poppins } from "next/font/google";
+import { Sora } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import Layouts from "./commons/components/Layouts";
 import SpotifyTop from "./commons/components/elements/SpotifyTop";
 import TopLoader from "./commons/components/elements/TopLoader";
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
 const sora = Sora({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],

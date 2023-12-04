@@ -6,10 +6,10 @@ import {
   SiPandas,
   SiGithub,
   SiAdobephotoshop,
-  SiJavascript,
   SiNodedotjs,
   SiAdobepremierepro,
   SiApachespark,
+  SiGooglesheets,
   SiMicrosoftazure,
   SiGit,
   SiNpm,
@@ -35,6 +35,10 @@ export const STACKS = [
   {
     name: 'Python',
     icon: <SiPython size={iconSize} className="text-blue-500"/>,
+  },
+  {
+    name: 'Spreadsheet',
+    icon: <SiGooglesheets size={iconSize} className="text-green-700"/>,
   },
   {
     name: 'Pandas',
@@ -69,10 +73,6 @@ export const STACKS = [
     icon: <SiMicrosoftazure size={iconSize} className="text-blue-500"/>,
   },
   {
-    name: 'Spark',
-    icon: <SiApachespark size={iconSize} className="text-orange-500"/>,
-  },
-  {
     name: 'Apache Airflow',
     icon: <SiApacheairflow size={iconSize} className="text-red-600"/>,
   },
@@ -95,10 +95,6 @@ export const STACKS = [
   {
     name: 'Github',
     icon: <SiGithub size={iconSize}/>,
-  },
-  {
-    name: 'JavaScript',
-    icon: <SiJavascript size={iconSize} className="text-yellow-400"/>,
   },
   {
     name: 'Adobe Photoshop',
