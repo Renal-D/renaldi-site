@@ -14,6 +14,13 @@ import {
   SiScikitlearn,
   SiAdobephotoshop,
   SiAdobepremierepro,
+  SiAdobeillustrator,
+  SiLeagueoflegends,
+  SiGooglehome,
+  SiNodered,
+  SiArduino,
+  SiVisualstudiocode,
+  SiFifa,
   SiGooglesheets,
 } from "react-icons/si";
 import {
@@ -165,8 +172,43 @@ export const OTHER = [
     linkEnglish: "",
   },
   {
+    title: "Adobe Ilustrator",
+    icon: <SiAdobeillustrator size={iconSize} className="text-orange-600"/>,
+    linkIndonesia:
+      "",
+    linkEnglish: "",
+  },
+  {
     title: "Adobe PremierPro",
     icon: <SiAdobepremierepro size={iconSize} className="text-purple-500"/>,
+    linkIndonesia:
+      "",
+    linkEnglish: "",
+  },
+  {
+    title: "Arduino",
+    icon: <SiArduino size={iconSize} className="text-cyan-600"/>,
+    linkIndonesia:
+      "",
+    linkEnglish: "",
+  },
+  {
+    title: "Node-RED",
+    icon: <SiNodered size={iconSize} className="text-red-700"/>,
+    linkIndonesia:
+      "",
+    linkEnglish: "",
+  },
+  {
+    title: "IoT - Smart Home",
+    icon: <SiGooglehome size={iconSize} className="text-teal-400"/>,
+    linkIndonesia:
+      "",
+    linkEnglish: "",
+  },
+  {
+    title: "League of Legends",
+    icon: <SiLeagueoflegends size={iconSize} className="text-blue-500"/>,
     linkIndonesia:
       "",
     linkEnglish: "",
