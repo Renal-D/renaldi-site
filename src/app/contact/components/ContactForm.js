@@ -1,4 +1,5 @@
 "use client";
+require('dotenv').config();
 import React, { useRef, useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 
