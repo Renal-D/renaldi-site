@@ -32,7 +32,7 @@ export default function Sidebar() {
 
   return (
     <>
-      <div className="md:mt-9 mt-0">
+      <div className="md:mt-9 mt-0 select-none">
         <aside
           class="md:sticky fixed top-0 z-40 md:w-60 w-full md:py-5 py-0 h-fit  transition-all duration-500 ease-in-out md:flex bg-neutral-50 md:bg-transparent dark:bg-dark md:dark:bg-transparent border-b-2 dark:border-neutral-800 md:border-0 justify-center"
           aria-label="Sidebar"

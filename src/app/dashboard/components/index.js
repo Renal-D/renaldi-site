@@ -11,7 +11,7 @@ import ContainerAOS from './../../commons/components/elements/ContainerAOS'
 export default function Index() {
   return(
     <ContainerAOS>
-      <div className=''>
+      <div className='select-none'>
       <HeaderHome/>
       <Divider orientation='horizontal' className='my-6'/>
       <SpotifyCard/>

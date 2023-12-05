@@ -10,7 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
+      screens: {
+        'disable-selection': { raw: '(prefers-reduced-motion: reduce)' },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

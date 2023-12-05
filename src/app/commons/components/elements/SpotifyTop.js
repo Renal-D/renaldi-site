@@ -11,7 +11,7 @@ export default function SpotifyTop() {
   if (isLoading || error) {
     return (
       <>
-        <div className="w-full bg-green-600 p-1 fixed bottom-0 z-[999999999] rounded-t-lg">
+        <div className="w-full bg-green-600 p-1 fixed bottom-0 z-[999999999] rounded-t-lg select-none">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">

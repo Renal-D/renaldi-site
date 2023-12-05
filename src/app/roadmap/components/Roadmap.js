@@ -9,7 +9,7 @@ import CourseList from "./CourseList";
 function RoadmapPage() {
   const isMobile = useIsMobile();
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 select-none">
       <div className="space-y-2">
         <SectionHeading title="Roadmap"/>
         <SectionSubHeading>

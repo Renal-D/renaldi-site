@@ -5,7 +5,7 @@ import ProjectDetail from "./../components/ProjectDetails";
 
 const ProjectDetailPage = () => {
   return (
-    <div>
+    <div className="select-none">
       <ContainerAOS>
         <ProjectDetail/>
       </ContainerAOS>
