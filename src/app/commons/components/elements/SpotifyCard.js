@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { useGetDataSpotify } from "../hooks/useGetDataSpotify";
@@ -7,14 +6,11 @@ import SectionHeading from "./SectionHeading";
 import SectionSubHeading from "./SectionSubHeading";
 import { BiLogoSpotify } from "react-icons/bi";
 import { motion } from "framer-motion";
-
 export default function SpotifyCard() {
   const { data, error, isLoading } = useGetDataSpotify();
-
   const menit = data?.duration / 60000;
   const detik = data?.duration / 1000;
   const duration_menit = Number(menit.toFixed(2));
-
   if (isLoading || error)
     return (
       <div className="space-y-6">
@@ -35,7 +31,6 @@ export default function SpotifyCard() {
                     height={100}
                   />
               </div>
-
               <div className="flex flex-col items-start gap-1 md:gap-3">
                 <div className="w-[178px] rounded h-4 animate-pulse">
                   <h1 className=" text-xs md:text-md font-semibold ">
@@ -66,7 +61,6 @@ export default function SpotifyCard() {
         </div>
       </div>
     );
-
   if (data)
     return (
       <div className="space-y-6">
@@ -126,5 +120,4 @@ export default function SpotifyCard() {
           </div>
         </div>
       </div>
-    );
-}
+    );}

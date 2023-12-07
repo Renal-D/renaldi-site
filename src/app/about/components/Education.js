@@ -2,7 +2,6 @@ import SectionHeading from './../../commons/components/elements/SectionHeading';
 import SectionSubHeading from './../../commons/components/elements/SectionSubHeading';
 import EducationCard from './EducationCard'
 import { TbSchool } from "react-icons/tb";
-
 export default function Education() {
   return (
     <>
@@ -14,8 +13,5 @@ export default function Education() {
         </SectionSubHeading>
       </div>
           <EducationCard/>
-    </div>
-    
-    </>
-  )
-}
+    </div></>
+  )}

@@ -1,7 +1,6 @@
 import SectionHeading from '@/app/commons/components/elements/SectionHeading'
 import SectionSubHeading from '@/app/commons/components/elements/SectionSubHeading'
 import React from 'react'
-
 function Header() {
   return (
     <div className='space-y-6'>
@@ -12,6 +11,5 @@ function Header() {
       </SectionSubHeading>
       </div>
     </div>
-  )
-}
+  )}
 export default Header

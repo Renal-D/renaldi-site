@@ -2,7 +2,6 @@ import useHasMounted from "@/app/commons/components/hooks/useHasMounted";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-
 export default function CertificatesCard({
   title,
   image,
@@ -41,7 +40,5 @@ export default function CertificatesCard({
             </div>
           </div>
         </div>
-      </Link>
-    </>
-  );
-}
+      </Link></>
+      );}

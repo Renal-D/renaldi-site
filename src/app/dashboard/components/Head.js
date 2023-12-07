@@ -1,5 +1,4 @@
 import Coffee from "./elements/Coffee"
-
 export default function HeaderHome() {
   return (
     <div className="flex flex-col">
@@ -13,5 +12,4 @@ export default function HeaderHome() {
       </ul>
       <p className='my-1 md:leading-9 leading-7 text-sm ml-5 italic'>Love Data, Technology, Artificial Intelligence , and Esport Indutry.</p>
     </div>
-  )
-}
+  )}

@@ -1,11 +1,7 @@
 import Contact from "./Contact";
-
 export default function Index() {
   return (
     <div className="h-screen select-none">
-      {/* <ContainerAOS> */}
-      <Contact />
-      {/* </ContainerAOS> */}
+      <Contact/>
     </div>
-  );
-}
+  );}

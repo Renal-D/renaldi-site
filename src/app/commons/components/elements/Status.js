@@ -1,9 +1,7 @@
 'use client'
-
 import { motion } from 'framer-motion'
 import { useTheme } from 'next-themes'
 import useHasMounted from '../hooks/useHasMounted'
-
 export default function Status() {
   const { resolvedTheme } = useTheme()
   const mounted = useHasMounted()
@@ -34,5 +32,4 @@ export default function Status() {
         <span className="text-xs text-neutral-600 dark:text-neutral-400">Hire me.</span>
       </motion.div>
     </motion.div>
-  )
-}
+  )}

@@ -22,5 +22,4 @@ export const SkillLists = [
   {
     name: 'Node.js',
     logo: 'https://icons.ly/nodedotjs',
-  },
-]
+  },]

@@ -3,7 +3,6 @@ import useIsMobile from "@/app/commons/components/hooks/useIsMobile";
 import { Tooltip } from "@nextui-org/react";
 import Link from "next/link";
 import React from "react";
-
 function CourseCard({ Index, icon, title, indonesia, english }) {
   const isMobile = useIsMobile();
   return (
@@ -36,8 +35,6 @@ function CourseCard({ Index, icon, title, indonesia, english }) {
             </Tooltip>
           )}
         </div>
-      </div>
-    </>
-  );
-}
+      </div></>
+  );}
 export default CourseCard;

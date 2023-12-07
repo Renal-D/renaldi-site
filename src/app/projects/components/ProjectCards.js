@@ -4,7 +4,6 @@ import { BiPin, BiRightArrowAlt } from "react-icons/bi";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-
 export default function ProjectsCards({
   is_featured,
   slug,
@@ -17,7 +16,6 @@ export default function ProjectsCards({
 }) {
   const mounted = useHasMounted();
   if (!mounted) return null;
-
   return (
     <div>
       <Link key={Index} href={`/projects/${slug}`}>
@@ -64,5 +62,4 @@ export default function ProjectsCards({
         </div>
       </Link>
     </div>
-  );
-}
+  );}

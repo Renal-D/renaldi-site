@@ -29,7 +29,6 @@ import {
 import {
    GiArtificialIntelligence, 
 } from "react-icons/gi";
-
 const iconSize = 24;
 export const ANALYTICS = [
   {
@@ -96,7 +95,6 @@ export const ANALYTICS = [
     linkEnglish: "https://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257?pd_rd_w=GOBtn&content-id=amzn1.sym.7f0cf323-50c6-49e3-b3f9-63546bb79c92&pf_rd_p=7f0cf323-50c6-49e3-b3f9-63546bb79c92&pf_rd_r=PRDGPBNW9STWB7TQTHQW&pd_rd_wg=v8uFy&pd_rd_r=024055bd-f103-4273-9e7f-100ca4cb5886&pd_rd_i=1119002257&psc=1&linkCode=sl1&tag=swdbooks-20&linkId=309f73640a0cb64e3b676e26561d07a0&language=en_US&ref_=as_li_ss_tl",
   },
 ];
-
 export const MASTERING_DATA = [
   {
     title: "Git & Github",
@@ -162,7 +160,6 @@ export const MASTERING_DATA = [
       "",
   },
 ];
-
 export const OTHER = [
   {
     title: "Adobe Photoshop",
@@ -212,5 +209,4 @@ export const OTHER = [
     linkIndonesia:
       "",
     linkEnglish: "",
-  },
-]
+  },]

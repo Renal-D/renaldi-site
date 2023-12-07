@@ -1,6 +1,5 @@
 import React from "react";
 import { BsThreeDots } from "react-icons/bs";
-
 export default function LoadingSpeedInsight() {
   return (
     <div className="my-6 flex text-neutral-600 md:text-sm justify-center items-end space-x-6 md:space-x-10">
@@ -18,5 +17,4 @@ export default function LoadingSpeedInsight() {
         </div>
       ))}
     </div>
-  );
-}
+  );}

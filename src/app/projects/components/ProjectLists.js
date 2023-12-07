@@ -6,9 +6,7 @@ import SectionSubHeading from "@/app/commons/components/elements/SectionSubHeadi
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import { PROJECTSLISTS } from "@/app/commons/constants/ProjectsLists";
-
 const LazyprojectCard = dynamic(() => import("./ProjectCards"));
-
 export default function ProjectsLists() {
   const filteredProjects = PROJECTSLISTS.filter((project) => project?.is_show);
   if (filteredProjects.length === 0) {
@@ -53,5 +51,4 @@ export default function ProjectsLists() {
         </div>
       </div>
     </div>
-  );
-}
+  );}

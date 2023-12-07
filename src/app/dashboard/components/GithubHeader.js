@@ -5,15 +5,12 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import GitHubCalendar from "react-github-calendar";
 import { Tooltip } from "@nextui-org/react";
-
 import { useTheme } from "next-themes";
 import useHasMounted from "@/app/commons/components/hooks/useHasMounted";
-
 function GithubHeader() {
   const { theme, setTheme } = useTheme();
   const [loading, setLoading] = useState(false);
   const mounted = useHasMounted();
-
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -55,6 +52,5 @@ function GithubHeader() {
         />
       </div>
     </div>
-  );
-}
+  );}
 export default GithubHeader;

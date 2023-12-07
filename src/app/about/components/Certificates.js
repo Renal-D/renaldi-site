@@ -3,7 +3,6 @@ import SectionSubHeading from "@/app/commons/components/elements/SectionSubHeadi
 import { BiBarcode } from "react-icons/bi";
 import CertificatesCard from "./CertificatesCard";
 import { CERTIFICATELISTS } from "@/app/commons/constants/CertificateLists";
-
 export default function Certificates() {
   return (
     <div className="space-y-6">
@@ -16,7 +15,6 @@ export default function Certificates() {
           <p>My Current Certificates.</p>
         </SectionSubHeading>
       </div>
-
       <div className="grid grid-cols-1 gap-4">
         {CERTIFICATELISTS.map((item, index) => {
           return (
@@ -31,9 +29,6 @@ export default function Certificates() {
               title={item.title}
               id_certificate={item.id_certificate}
             />
-          );
-        })}
+          );})}
       </div>
-    </div>
-  );
-}
+    </div>);}

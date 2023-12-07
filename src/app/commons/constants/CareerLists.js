@@ -1,5 +1,4 @@
 import { BiQuestionMark } from "react-icons/bi";
-
 const ICON_SIZE = '30'
 export const CareerLists = [
   {
@@ -19,5 +18,4 @@ export const CareerLists = [
     date: 'July 2023 - Present',
     during: '~ 6 Months',
     profession: 'Data Analyst',
-  },
-]
+  },]

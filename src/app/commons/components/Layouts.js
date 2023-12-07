@@ -2,7 +2,6 @@
 import Sidebar from "./sidebar";
 import Container from "./elements/container";
 import { useEffect } from "react";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Layouts({children}) {
@@ -23,5 +22,4 @@ export default function Layouts({children}) {
           </div>
         </div>
     </div>
-  )
-}
+  )}

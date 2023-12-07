@@ -19,7 +19,5 @@ export default function Header() {
       As an science graduate, I have affinity to work with number. Data analytics successfully combines aspects of work that I enjoy such as 
       computation, business, and visualization. I stay current with industry trends and best practices to provide innovative solutions that surpass 
       company expectations. My strong problem-solving skills and attention to detail drive innovation in every project I handle.</p>
-    </div>
-    </>
-  )
-}
+    </div></>
+  )}

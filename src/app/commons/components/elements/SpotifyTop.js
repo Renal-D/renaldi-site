@@ -1,13 +1,10 @@
 "use client";
-
 import { SiSpotify } from "react-icons/si";
 import useSWR from "swr";
 import Link from "next/link";
-
 export default function SpotifyTop() {
   const fetcher = (url) => fetch(url).then((res) => res.json());
   const { data, error, isLoading } = useSWR("/api/spotify", fetcher);
-
   if (isLoading || error) {
     return (
       <>
@@ -22,9 +19,7 @@ export default function SpotifyTop() {
           </div>
         </div>
       </>
-    );
-  }
-
+    );}
   if (data) {
     return (
       <>
@@ -43,8 +38,5 @@ export default function SpotifyTop() {
               </div>
             </div>
           </div>
-        </Link>
-      </>
-    );
-  }
-}
+        </Link></>
+    );}}

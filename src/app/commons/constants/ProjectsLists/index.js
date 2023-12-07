@@ -11,7 +11,6 @@ import {
   SiAdobelightroom,
   SiTensorflow
 } from "react-icons/si";
-
 const iconSize = 24;
 export const PROJECTSLISTS = [
   {
@@ -38,7 +37,6 @@ export const PROJECTSLISTS = [
       icon: <SiTensorflow size={iconSize} className="text-orange-600"/>,
     },
     ],
-    
     tooltip: ["Python","MySQL","Big Query","Tensor Flow"],
     aos_delay: 600,
     image:
@@ -146,10 +144,8 @@ export const PROJECTSLISTS = [
         icon: null,
       },
     ],
-
     tooltip: ["Next.js","Tailwind CSS","Javascript"],
     aos_delay: 400,
-
     image:
       "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701924641/YoRi_a0uhdd.webp",
     is_show: true,
@@ -182,7 +178,6 @@ export const PROJECTSLISTS = [
       icon: null,
     },
     ],
-    
     tooltip: ["Photoshop","Lightroom"],
     aos_delay: 800,
     image:
@@ -217,7 +212,6 @@ export const PROJECTSLISTS = [
       icon: null,
     },
     ],
-    
     tooltip: ["Photoshop"],
     aos_delay: 800,
     image:
@@ -227,5 +221,4 @@ export const PROJECTSLISTS = [
     params: {
       slug: "photo",
     },
-  },
-];
+  },];

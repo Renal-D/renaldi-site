@@ -5,9 +5,7 @@ import {
   BiBox,
   BiSitemap,
 } from "react-icons/bi";
-
 const icon_size = 20;
-
 export const navLists = [
   {
     name: "Dashboard",
@@ -33,5 +31,4 @@ export const navLists = [
     name: "contact",
     link: "/contact",
     icon: <BiPaperPlane size={icon_size}/>,
-  },
-];
+  },];

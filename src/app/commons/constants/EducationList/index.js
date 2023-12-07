@@ -16,5 +16,4 @@ export const EDULISTS = [
     school: 'Bachelor Degree',
     gtw: '•',
     jurusan: 'Physics'
-  }
-]
+  }]

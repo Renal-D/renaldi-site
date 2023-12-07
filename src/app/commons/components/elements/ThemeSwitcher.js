@@ -3,13 +3,10 @@ import { BsCloudMoon, BsCloudSun } from "react-icons/bs";
 import { useTheme } from "next-themes";
 import { motion } from 'framer-motion'
 import useHasMounted from '../hooks/useHasMounted'
-
 export default function ThemeSwitcher() {
   const { theme, setTheme } = useTheme();
   const mounted = useHasMounted();
-
   if (!mounted) return null;
-
   return (
   <motion.button
   initial={{ opacity: 0, scale: 0.5 }}
@@ -21,6 +18,4 @@ export default function ThemeSwitcher() {
   >
   {theme === "light" ? <BsCloudMoon size={18}/> : <BsCloudSun size={18}/>}
   </motion.button>
-
-  );
-}
+  );}

@@ -8,7 +8,6 @@ import {
 } from "@/app/commons/constants/RoadmapLists";
 import { motion } from "framer-motion";
 import useHasMounted from "@/app/commons/components/hooks/useHasMounted";
-
 function CourseList() {
   const [open, setOpen] = useState(1);
   const mounted = useHasMounted();
@@ -108,8 +107,6 @@ function CourseList() {
             ))}
           </div>
         )}
-      </div>
-    </>
-  );
-}
+      </div></>
+  );}
 export default CourseList;

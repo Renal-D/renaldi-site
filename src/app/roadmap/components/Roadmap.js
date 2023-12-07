@@ -5,7 +5,6 @@ import SectionSubHeading from "@/app/commons/components/elements/SectionSubHeadi
 import useIsMobile from "@/app/commons/components/hooks/useIsMobile";
 import React from "react";
 import CourseList from "./CourseList";
-
 function RoadmapPage() {
   const isMobile = useIsMobile();
   return (
@@ -20,6 +19,5 @@ function RoadmapPage() {
       <DashedDivider/>
       <CourseList/>
     </div>
-  );
-}
+  );}
 export default RoadmapPage;

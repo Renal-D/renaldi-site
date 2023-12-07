@@ -6,7 +6,5 @@ export default function Projects() {
     <>
     <ContainerAOS>
       <Index/>
-    </ContainerAOS>
-    </>
-  )
-}
+    </ContainerAOS></>
+  )}

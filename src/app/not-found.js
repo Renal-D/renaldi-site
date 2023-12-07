@@ -1,5 +1,4 @@
 import Link from 'next/link'
-
 export default function NotFound() {
   return (
     <div className='h-screen'>
@@ -14,5 +13,4 @@ export default function NotFound() {
         </Link>
       </div>
     </div>
-  )
-}
+  )}

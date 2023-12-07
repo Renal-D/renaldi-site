@@ -1,19 +1,15 @@
 "use client";
-
 import BackButton from "@/app/commons/components/elements/BackButton";
 import SectionHeading from "@/app/commons/components/elements/SectionHeading";
 import SectionSubHeading from "@/app/commons/components/elements/SectionSubHeading";
 import { CERTIFICATELISTS } from "@/app/commons/constants/CertificateLists";
 import Image from "next/image";
 import { useParams } from "next/navigation";
-
 export default function CertificateDetail() {
   const _params = useParams();
-
   const ceritificate = CERTIFICATELISTS.find((ceritificate) => {
     return ceritificate.slug === _params.slug;
   });
-
   return (
     <div>
       {ceritificate && (
@@ -47,8 +43,5 @@ export default function CertificateDetail() {
               Valid until {ceritificate.berlaku}
             </p>
           </div>
-        </div>
-      )}
-    </div>
-  );
-}
+        </div>)}
+    </div>);}

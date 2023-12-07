@@ -2,20 +2,16 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { CERTIFICATELISTS } from "@/app/commons/constants/CertificateLists";
 import Image from "next/image";
-
 export default function SwiperCertificate() {
-  return (
-    <>
+  return (<>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -42,7 +38,5 @@ export default function SwiperCertificate() {
             />
           </SwiperSlide>
         ))}
-      </Swiper>
-    </>
-  );
-}
+      </Swiper></>
+  );}

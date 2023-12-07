@@ -7,7 +7,6 @@ import SpotifyCard from "@/app/commons/components/elements/SpotifyCard"
 import SkillLists from './SkillList'
 import ResumeCard from './ResumeCard'
 import ContainerAOS from './../../commons/components/elements/ContainerAOS'
-
 export default function Index() {
   return(
     <ContainerAOS>
@@ -25,5 +24,4 @@ export default function Index() {
       <ResumeCard/>
       </div>
     </ContainerAOS>
-  )
-}
+  )}

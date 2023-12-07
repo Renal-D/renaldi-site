@@ -6,9 +6,7 @@ import {
   SiDiscord,
   SiLinkedin,
 } from "react-icons/si";
-
 const iconSize = 24;
-
 export const CONTACTLIST = [
   {
     name: "Github",
@@ -45,5 +43,4 @@ export const CONTACTLIST = [
     logo: <SiLinkedin size={iconSize}/>,
     href: "https://www.linkedin.com/in/renaldidwi",
     color: 'bg-blue-500',
-  },
-];
+  },];

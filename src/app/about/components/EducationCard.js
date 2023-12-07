@@ -4,10 +4,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { EDULISTS } from "./../../commons/constants/EducationList/index";
-
 export default function EducationCard() {
   const mounted = useHasMounted();
-
   if (!mounted) return null;
   return (
     <>
@@ -43,8 +41,5 @@ export default function EducationCard() {
               </h1>
             </div>
           </div>
-        );
-      })}
-    </>
-  );
-}
+        );})}
+    </>);}

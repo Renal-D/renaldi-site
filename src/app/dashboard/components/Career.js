@@ -3,7 +3,6 @@ import { BiBriefcaseAlt2 } from "react-icons/bi";
 import Link from "next/link";
 import SectionHeading from "./../../commons/components/elements/SectionHeading";
 import SectionSubHeading from "../../commons/components/elements/SectionSubHeading";
-
 export default function Career() {
   return (
     <div className="space-y-6">
@@ -69,5 +68,4 @@ export default function Career() {
         </div>
       </div>
     </div>
-  );
-}
+  );}

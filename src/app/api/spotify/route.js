@@ -5,11 +5,8 @@ import {
   getQueue,
   getTrack,
 } from "@/app/lib/spotify";
-
 import { NextResponse } from "next/server";
-
 export const dynamic = "force-dynamic";
-
 export async function GET() {
   const accessToken = await getAccessToken();
   const track = await getCurrentTrack(accessToken);
@@ -17,7 +14,6 @@ export async function GET() {
   const queue = await getQueue(accessToken);
   const id = track ? track.item.id : null;
   const trackId = await getTrack(accessToken, id);
-
   if (!accessToken)
     return NextResponse.json(
       {
@@ -25,7 +21,6 @@ export async function GET() {
       },
       { status: 500 }
     );
-
   if (track) {
     if (trackId) {
       if (queue)
@@ -41,9 +36,7 @@ export async function GET() {
           albumArt: track.item.album.images[0],
           currentlyPlaying: true,
         });
-    }
-  }
-
+    }}
   if (lastTrack) {
     return NextResponse.json({
       last_name: lastTrack.items[0].track.name,
@@ -56,13 +49,10 @@ export async function GET() {
       last_href: lastTrack.items[0].track.external_urls.spotify,
       last_albumArt: lastTrack.items[0].track.album.images[0],
       last_currentlyPlaying: false,
-    });
-  }
-
+    });}
   return NextResponse.json(
     {
       error: "Error fetching data from Spotify",
     },
     { status: 500 }
-  );
-}
+  );}

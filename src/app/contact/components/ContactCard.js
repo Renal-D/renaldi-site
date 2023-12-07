@@ -1,7 +1,6 @@
 import { CONTACTLIST } from "@/app/commons/constants/ContactList";
 import Link from "next/link";
 import React from "react";
-
 function ContactCard() {
   return (
     <div className="space-y-2 flex flex-col">
@@ -26,6 +25,5 @@ function ContactCard() {
         })}
       </div>
     </div>
-  );
-}
+  );}
 export default ContactCard;

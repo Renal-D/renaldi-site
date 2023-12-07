@@ -8,5 +8,4 @@ export function Providers({ children }) {
         {children}
       </ThemeProvider>
     </NextUIProvider>
-  );
-}
+  );}

@@ -4,7 +4,6 @@ import React from "react";
 import ContactCard from "./ContactCard";
 import App from "./ContactForm";
 import Header from "./Header";
-
 function Contact() {
   return (
     <div className="space-y-6">
@@ -14,7 +13,5 @@ function Contact() {
       <Divider/>
       <App/>
     </div>
-  );
-}
-
+  );}
 export default Contact;

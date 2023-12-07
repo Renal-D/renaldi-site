@@ -3,7 +3,6 @@ require('dotenv').config();
 export const getAccessToken = async () => {
   const myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
-
   const urlencoded = new URLSearchParams();
   urlencoded.append("client_id", process.env.NEXT_PUBLIC_CLIENT_ID_SPOTIFY);
   urlencoded.append(
@@ -15,14 +14,12 @@ export const getAccessToken = async () => {
     "refresh_token",
     process.env.NEXT_PUBLIC_REFRESH_TOKEN_SPOTIFY
   );
-
   const requestOptions = {
     method: "POST",
     headers: myHeaders,
     body: urlencoded,
     next: { revalidate: 3600 },
   };
-
   try {
     const response = await fetch(
       "https://accounts.spotify.com/api/token",
@@ -34,53 +31,43 @@ export const getAccessToken = async () => {
     console.log();
   }
 };
-
 export async function getCurrentTrack(accessToken) {
   const myHeaders = new Headers();
   myHeaders.append("Authorization", `Bearer ${accessToken}}`);
-
   const requestOptions = {
     method: "GET",
     headers: myHeaders,
     next: { revalidate: 0 },
   };
-
   try {
     const response = await fetch(
       "https://api.spotify.com/v1/me/player/currently-playing",
       requestOptions
     );
-
     const data = await response.json();
     return data ? data : null;
   } catch (err) {
     return null;
   }
 }
-
 export async function getLastPlayedTrack(accessToken) {
   const myHeaders = new Headers();
   myHeaders.append("Authorization", `Bearer ${accessToken}}`);
-
   const requestOptions = {
     method: "GET",
     headers: myHeaders,
     next: { revalidate: 60 },
   };
-
   try {
     const response = await fetch(
       "https://api.spotify.com/v1/me/player/recently-played?limit=1",
       requestOptions
     );
-
     const data = await response.json();
     return data ? data : null;
   } catch (err) {
     return null;
-  }
-}
-
+  }}
 export async function getQueue(accessToken) {
   const myHeaders = new Headers();
   myHeaders.append("Authorization", `Bearer ${accessToken}}`);
@@ -90,39 +77,31 @@ export async function getQueue(accessToken) {
     headers: myHeaders,
     next: { revalidate: 60 },
   };
-
   try {
     const response = await fetch(
       "https://api.spotify.com/v1/me/player/queue",
       requestOptions
     );
-
     const data = await response.json();
     return data ? data : null;
   } catch (err) {
     return null;
-  }
-}
-
+  }}
 export async function getTrack(accessToken, id) {
   const myHeaders = new Headers();
   myHeaders.append("Authorization", `Bearer ${accessToken}}`);
-
   const requestOptions = {
     method: "GET",
     headers: myHeaders,
     next: { revalidate: 60 },
   };
-
   try {
     const response = await fetch(
       `https://api.spotify.com/v1/tracks/${id}`,
       requestOptions
     );
-
     const data = await response.json();
     return data ? data : null;
   } catch (err) {
     return null;
-  }
-}
+  }}

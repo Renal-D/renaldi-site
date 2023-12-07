@@ -9,6 +9,4 @@ export default function Copyright() {
             <span className="hover:dark:text-neutral-400 cursor-pointer">
               Renmaruu
             </span>
-          </div>
-  )
-}
+          </div>)}

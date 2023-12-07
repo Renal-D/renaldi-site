@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import {BiRocket} from 'react-icons/bi'
-
 export default function ResumeCard() {
   return (
     <div className='space-y-6'>
@@ -15,5 +14,4 @@ export default function ResumeCard() {
       </div>
     </div>
     </div>
-  )
-}
+  )}

@@ -4,12 +4,9 @@ import { motion } from "framer-motion";
 import Verified from "./../elements/verified";
 import Status from "./../elements/Status";
 import useHasMounted from "../hooks/useHasMounted";
-
 export default function Me({ activeProps }) {
   const mounted = useHasMounted();
-
   if (!mounted) return null;
-
   return (
     <>
       <div className="self-center md:self-auto ">
@@ -27,7 +24,6 @@ export default function Me({ activeProps }) {
             ></Image>
           </div>
         </div>
-
         <div
           className={`flex md:flex-col ${
             activeProps ? "flex-col" : "flex-row  items-center"
@@ -64,7 +60,5 @@ export default function Me({ activeProps }) {
             @renaldii06
           </p>
         </div>
-      </div>
-    </>
-  );
-}
+      </div></>
+  );}

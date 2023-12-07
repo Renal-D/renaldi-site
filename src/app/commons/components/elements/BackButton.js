@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { BiLeftArrowCircle } from "react-icons/bi";
-
 function BackButton({ href }) {
   return (
     <div>
@@ -12,7 +11,5 @@ function BackButton({ href }) {
         <BiLeftArrowCircle size={24} /> <p className="text-lg ">Back</p>
       </Link>
     </div>
-  );
-}
-
+  );}
 export default BackButton;

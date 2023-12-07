@@ -9,7 +9,6 @@ import Copyright from "./elements/copyright";
 import ThemeSwitcher from "./elements/ThemeSwitcher";
 import { motion } from "framer-motion";
 import useHasMounted from "./hooks/useHasMounted";
-
 export default function Sidebar() {
   const [isActive, setIsActive] = useState(false);
   const dropdown = useRef(null);
@@ -27,9 +26,7 @@ export default function Sidebar() {
     // clean up
     return () => window.removeEventListener("click", handleClick);
   }, [isActive]);
-
   if (!mounted) return null;
-
   return (
     <>
       <div className="md:mt-9 mt-0 select-none">
@@ -120,7 +117,5 @@ export default function Sidebar() {
             <Copyright/>
           </div>
         </aside>
-      </div>
-    </>
-  );
-}
+      </div></>
+  );}

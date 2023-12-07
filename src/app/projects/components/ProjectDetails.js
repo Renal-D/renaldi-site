@@ -9,7 +9,6 @@ import { SiGithub } from "react-icons/si";
 import { BiLinkExternal } from "react-icons/bi";
 import Link from "next/link";
 import Image from "next/image";
-
 export default function ProjectDetail({ params }) {
   const _params = useParams();
   const project = PROJECTSLISTS.find(
@@ -70,5 +69,4 @@ export default function ProjectDetail({ params }) {
         )}
       </div>
     </>
-  );
-}
+  );}

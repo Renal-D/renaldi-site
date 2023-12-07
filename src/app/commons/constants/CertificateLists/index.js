@@ -22,5 +22,4 @@ export const CERTIFICATELISTS = [
     id_certificate: "",
     by: "binar academy || kominfo",
     slug: "belajar-data-science-dan-basic-machine-learning",
-  },
-];
+  },];

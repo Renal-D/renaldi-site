@@ -2,7 +2,6 @@
 require('dotenv').config();
 import React, { useRef, useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
-
 function ContactForm() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID);
   const [notification, setNotification] = useState(null);
@@ -12,7 +11,6 @@ function ContactForm() {
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     await handleSubmit(e);
-
   if (state.succeeded) {
     inputName.current.value = "";
     inputEmail.current.value = "";
@@ -35,7 +33,6 @@ function Notification({ notification }) {
     </div>
   );
 }
-
   return (
     <div className="space-y-2">
       <h1 className="text-md">Or send me an e-mail</h1>
@@ -78,7 +75,6 @@ function Notification({ notification }) {
             errors={state.errors}
           />
         </div>
-
         <button
           type="submit"
           disabled={state.submitting}
@@ -88,9 +84,7 @@ function Notification({ notification }) {
         </button>
       </form>
     </div>
-  );
-}
+  );}
 function App() {
-  return <ContactForm />;
-}
+  return <ContactForm />;}
 export default App;

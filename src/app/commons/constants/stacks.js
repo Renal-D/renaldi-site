@@ -23,10 +23,7 @@ import {
 import {
   FcRadarPlot,
 } from "react-icons/fc";
-
-
 const iconSize = '100%'
-
 export const STACKS = [
   {
     name: 'MySQL',
@@ -107,5 +104,4 @@ export const STACKS = [
   {
     name: 'Discord',
     icon: <SiDiscord size={iconSize}/>,
-  },
-]
+  },]

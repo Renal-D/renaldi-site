@@ -18,5 +18,4 @@ export default function SkillList() {
               ))}
       </div>
     </section>
-  )
-}
+  )}

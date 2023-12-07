@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import useIsMobile from "../hooks/useIsMobile";
-
 export default function CardContainerAOS({ children,delayAOS,className }) {
   const mobile = useIsMobile(); 
   useEffect(() => {
@@ -22,5 +21,4 @@ export default function CardContainerAOS({ children,delayAOS,className }) {
       <div className={className} data-aos='fade-up' data-aos-delay={delayAOS}>
         { children }
       </div>
-    )
-}
+    )}
