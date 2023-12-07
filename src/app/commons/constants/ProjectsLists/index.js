@@ -42,7 +42,7 @@ export const PROJECTSLISTS = [
     tooltip: ["Python","MySQL","Big Query","Tensor Flow"],
     aos_delay: 600,
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610907/sunny_yndbtr.png",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701924641/sunny_yn51np.webp",
     is_show: true,
     is_featured: true,
     params: {
@@ -77,7 +77,7 @@ export const PROJECTSLISTS = [
     tooltip: ["Python","MySQL","Tableau"],
     aos_delay: 600,
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610907/quinnie_bkcq8w.png",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701924642/quinnie_se4tbh.webp",
     is_show: true,
     is_featured: true,
     params: {
@@ -114,7 +114,7 @@ export const PROJECTSLISTS = [
     aos_delay: 200,
 
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610905/carmine1_in7hbi.png",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701924641/carmine1_ukz1br.webp",
     is_show: true,
     is_featured: false,
     params: {
@@ -151,7 +151,7 @@ export const PROJECTSLISTS = [
     aos_delay: 400,
 
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610904/YoRi_upmczr.png",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701924641/YoRi_a0uhdd.webp",
     is_show: true,
     is_featured: false,
     params: {
@@ -186,7 +186,7 @@ export const PROJECTSLISTS = [
     tooltip: ["Photoshop","Lightroom"],
     aos_delay: 800,
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610904/aisyah_lohnnl.png",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701924645/tiffany_vv9nxh.webp",
     is_show: true,
     is_featured: false,
     params: {
@@ -221,7 +221,7 @@ export const PROJECTSLISTS = [
     tooltip: ["Photoshop"],
     aos_delay: 800,
     image:
-      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701610908/satine_cgtbas.png",
+      "https://res.cloudinary.com/dmmbiqyub/image/upload/v1701924642/satine_ynuw4b.webp",
     is_show: true,
     is_featured: false,
     params: {

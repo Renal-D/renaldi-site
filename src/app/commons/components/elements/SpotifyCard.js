@@ -29,7 +29,7 @@ export default function SpotifyCard() {
             <div className="flex  items-center gap-8">
               <div className="w-[75px] h-[75px] overflow-hidden rounded-lg sm:w-[100px] sm:h-[100px]  bg-neutral-300 dark:bg-neutral-700 animate-pulse">
               <Image
-                    src= 'https://res.cloudinary.com/dmmbiqyub/image/upload/v1701516483/livii_efdy0d.jpg'
+                    src= 'https://res.cloudinary.com/dmmbiqyub/image/upload/v1701925071/livii_fwdeuh.webp'
                     alt="Album art"
                     width={100}
                     height={100}

@@ -44,7 +44,7 @@ export default function Me({ activeProps }) {
                 initial={{ filter: "blur(20px)" }}
                 animate={{ filter: "blur(0px)" }}
                 transition={{ duration: 1, delay: 0.5 }}
-                src="https://th.bing.com/th/id/OIG.Xjeu.69tpDUelOADpSgL?pid=ImgGn"
+                src="https://res.cloudinary.com/dmmbiqyub/image/upload/v1701926774/_bb90cc8d-88ce-4ace-9d8f-cb202754bd9b_hihaaa.webp"
                 loading="lazy"
                 width={90}
                 height={90}
