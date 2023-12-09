@@ -47,8 +47,7 @@ export async function getCurrentTrack(accessToken) {
     return data ? data : null;
   } catch (err) {
     return null;
-  }
-}
+  }}
 export async function getLastPlayedTrack(accessToken) {
   const myHeaders = new Headers();
   myHeaders.append("Authorization", `Bearer ${accessToken}}`);
@@ -66,8 +65,7 @@ export async function getLastPlayedTrack(accessToken) {
     return data ? data : null;
   } catch (err) {
     return null;
-  }
-}
+  }}
 export async function getTrack(accessToken, id) {
   const myHeaders = new Headers();
   myHeaders.append("Authorization", `Bearer ${accessToken}}`);
@@ -85,8 +83,7 @@ export async function getTrack(accessToken, id) {
     return data ? data : null;
   } catch (err) {
     return null;
-  }
-}
+  }}
 export async function getTopTracks(accessToken) {
   const myHeaders = new Headers();
   myHeaders.append("Authorization", `Bearer ${accessToken}}`);
@@ -104,18 +101,15 @@ export async function getTopTracks(accessToken) {
     return data ? data : null;
   } catch (err) {
     return null;
-  }
-}
+  }}
 export async function getPlaylist(accessToken, playlist_id) {
   const myHeaders = new Headers();
   myHeaders.append("Authorization", `Bearer ${accessToken}}`);
-
   const requestOptions = {
     method: "GET",
     headers: myHeaders,
     next: { revalidate: 60 },
   };
-
   try {
     const response = await fetch(`${playlist_id}`, requestOptions);
 
