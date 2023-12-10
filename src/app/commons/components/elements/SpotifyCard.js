@@ -47,7 +47,7 @@ export default function SpotifyCard() {
             <h1 className="text-md md:text-lg font-bold ">
               {data.currentlyPlaying ? "LISTENING TO SPOTIFY" : "LAST PLAYED"}
             </h1>
-            <motion.div className="absolute top-0 right-0" animate={{ rotate: 360 }} 
+            <motion.div className="absolute top-0 right-0 text-green-600" animate={{ rotate: 360 }} 
                 transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}>
               <BiLogoSpotify className="md:w-8 md:h-8 w-6 h-6" size={40} />
             </motion.div>
