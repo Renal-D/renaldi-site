@@ -1,25 +1,28 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { useGetDataSpotify } from "../hooks/useGetDataSpotify";
-import SectionHeading from "./SectionHeading";
-import SectionSubHeading from "./SectionSubHeading";
 import { BiLogoSpotify } from "react-icons/bi";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
+
 export default function SpotifyCard() {
   const { data, error, isLoading } = useGetDataSpotify();
+
   if (isLoading || error)
     return (
-      <div className="space-y-6">
-      <div className="space-y-2">
-        <SectionHeading title="Spotify" icon={<BiLogoSpotify className= "text-green-500" size={24} />}/>
-        <SectionSubHeading>
-          <p>Fetch API from Spotify</p>
-        </SectionSubHeading>
       <div className="w-full flex bg-neutral-100 dark:bg-neutral-800 rounded-2xl p-4 items-center">
         <div className="relative w-full">
           <div className="flex  items-center gap-8">
-            <div className="w-[75px] h-[75px] overflow-hidden rounded-lg sm:w-[100px] sm:h-[100px]  bg-neutral-300 dark:bg-neutral-700 animate-pulse"></div>
+            <div className="w-[75px] h-[75px] overflow-hidden rounded-lg sm:w-[100px] sm:h-[100px]  bg-neutral-300 dark:bg-neutral-700 animate-pulse">
+            <Image
+                    src= 'https://res.cloudinary.com/dmmbiqyub/image/upload/v1701925071/livii_fwdeuh.webp'
+                    alt="Album art"
+                    width={100}
+                    height={100}
+                  />
+            </div>
+
             <div className="flex flex-col items-start gap-1 md:gap-3">
               <div className="w-[178px] rounded h-4 bg-neutral-300 dark:bg-neutral-700 animate-pulse"></div>
               <div className="w-[187px] rounded h-5 bg-neutral-300 dark:bg-neutral-700 animate-pulse"></div>
@@ -36,9 +39,8 @@ export default function SpotifyCard() {
           </Link>
         </div>
       </div>
-    </div>
-  </div>
     );
+
   if (data)
     return (
       <>
@@ -83,7 +85,7 @@ export default function SpotifyCard() {
                 on{" "}
                 <Link
                   href={data.playlistHref}
-                  className="hover:underline text-sm font-medium capitalize"
+                  className="hover:underline text-sm font-medium "
                 >
                   {data.playlistName}
                 </Link>
@@ -91,4 +93,50 @@ export default function SpotifyCard() {
             </div>
           </div>
         </div>
-      </>);}
+
+        {/* <div className="w-full flex bg-neutral-100 dark:bg-neutral-800 rounded-2xl p-4 items-center">
+          <div className="flex justify-between  w-full">
+            <div className="flex  items-center gap-6">
+              <Link href={data?.href} target="_blank" rel="noopener noreferrer">
+                <div className="w-[75px] overflow-hidden rounded-lg sm:w-[100px] shadow-md">
+                  <Image
+                    src={data?.albumArt.url}
+                    alt="Album art"
+                    width={100}
+                    height={100}
+                  />
+                </div>
+              </Link>
+              <div className="flex flex-col items-start gap-1 md:gap-3">
+                <h1 className=" text-sm md:text-md font-semibold ">
+                  {data.currentlyPlaying ? "LISTENING" : "LAST PLAYED"}
+                </h1>
+                <Link
+                  href={data?.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3 className="text-lg font-bold hover:underline decoration-2 underline-offset-2">
+                    {data.name}
+                  </h3>
+                </Link>
+                <h1 className=" font-semibold md:text-md text-sm">
+                  {data.artists.map((artist) => artist.name).join(", ")}
+                </h1>
+              </div>
+            </div>
+            <div className="flex flex-col gap-12  h-full ">
+              <Link
+                href={"https://spotify.com"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" top-0 right-0 "
+              >
+                <BiLogoSpotify className="md:w-8 md:h-8 h-5 w-5" />
+              </Link>
+            </div>
+          </div>
+        </div> */}
+      </>
+    );
+}

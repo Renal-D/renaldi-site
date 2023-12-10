@@ -12,8 +12,8 @@ export default function SpotifyTop() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2 ">
-                <SiSpotify size={20} color={"#000000"} />
-                <h1 className="text-black text-sm">Not Listening</h1>
+                <SiSpotify size={20} color={"#ffffff"} />
+                <h1 className="text-white text-sm">Not Listening</h1>
               </div>
             </div>
           </div>
@@ -33,8 +33,8 @@ export default function SpotifyTop() {
               <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2 ">
-                    <SiSpotify size={20} color={"#000000"} />
-                    <div className="text-black text-sm flex items-center gap-1">
+                    <SiSpotify size={20} color={"#ffffff"} />
+                    <div className="text-white text-sm flex items-center gap-1">
                       <h1>Listening {data?.name}</h1>
                     </div>
                   </div>
@@ -51,8 +51,8 @@ export default function SpotifyTop() {
               <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2 ">
-                    <SiSpotify size={20} color={"#000000"} />
-                    <div className="text-black text-sm flex items-center gap-1">
+                    <SiSpotify size={20} color={"#ffffff"} />
+                    <div className="text-white text-sm flex items-center gap-1">
                       <h1>Not Listening</h1>
                     </div>
                   </div>
